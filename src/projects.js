@@ -124,7 +124,7 @@ function Expense() {
         </p>
         </Col>
         <Col md>
-          <Image className='proj-img' src={expenseDetailImg} />
+          <Image className='proj-img' src={expenseDetailImg} alt='project imgage' />
         </Col>
       </Row>
     </Container>

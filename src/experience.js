@@ -26,7 +26,7 @@ const TimelineItem = ({ data, eventKey }) => (
       <div className='title-container'>
         <span className='circle' />
         <h4>{data.title}</h4>
-        <img src={data.img} className='logo'/>
+        <img src={data.img} className='logo' alt='logo' />
       </div>
       <h5>{data.subtitle}</h5>
       <div className='timeline-item-content'>

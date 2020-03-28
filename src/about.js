@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './views/about.css'
-import { Container, Col, Row, Carousel, Image } from 'react-bootstrap'
+import { Container, Col, Row, Image } from 'react-bootstrap'
 
 import wushu from './imgs/wushu-collage.png'
 import travel from './imgs/travel-collage.png'
@@ -25,12 +25,12 @@ function About() {
           </div>
         </Col>
         <Col md>
-          <Image src={wushu} className='about-img'/>
+          <Image src={wushu} className='about-img' alt='wushu collage'/>
         </Col>
       </Row>
       <Row>
         <Col md>
-          <Image src={travel} className='about-img'/>
+          <Image src={travel} className='about-img' alt='travel collage'/>
         </Col>
         <Col md>
           <div className='about-desc-container'>

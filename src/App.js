@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './views/custom-styles.scss'
 import './views/app.css'
 import resume from './resume.pdf'
-// import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Navbar, Nav, Container, Col, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare, faInstagramSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'

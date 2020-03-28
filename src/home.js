@@ -7,14 +7,6 @@ import { faAngleDoubleDown, faArrowDown, faEnvelopeSquare } from '@fortawesome/f
 import { faGithubSquare, faInstagramSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import profile from './imgs/profile.jpg'
-import instagram from './imgs/instagram.png'
-import instagramHover from './imgs/instagram-hover.png'
-import github from './imgs/github.png'
-import githubHover from './imgs/github-hover.png'
-import linkedin from './imgs/linkedin.png'
-import linkedinHover from './imgs/linkedin-hover.png'
-import email from './imgs/email.png'
-import emailHover from './imgs/email-hover.png'
 
 function Home() {
   return (
@@ -60,46 +52,46 @@ function Home() {
   )
 }
 
-function Social() {
-  const [linkedinHovered, setLinkedinHovered] = useState(false);
-  const [instagramHovered, setInstagramHovered] = useState(false);
-  const [githubHovered, setGithubHovered] = useState(false);
-  const [emailHovered, setEmailHovered] = useState(false);
-
-  return (
-    <Container className='social-links-container'>
-      <Row md={2}>
-        <Col className='social-link'>
-          <a href="https://www.linkedin.com/in/cindy-x-zhang/" target="_blank">
-            <Image src={linkedinHovered ? linkedinHover : linkedin}
-                   onMouseEnter={() => {setLinkedinHovered(true)}}
-                   onMouseLeave={() => {setLinkedinHovered(false)}} />
-          </a>
-        </Col>
-        <Col className='social-link'>
-          <a href="https://www.instagram.com/cindyzhang977/" target="_blank">
-            <Image src={instagramHovered ? instagramHover : instagram}
-                   onMouseEnter={() => {setInstagramHovered(true)}}
-                   onMouseLeave={() => {setInstagramHovered(false)}} />
-          </a>
-        </Col>
-        <Col className='social-link'>
-          <a href="https://github.com/Cindyzhang977" target="_blank">
-            <Image src={githubHovered ? githubHover : github}
-                   onMouseEnter={() => {setGithubHovered(true)}}
-                   onMouseLeave={() => {setGithubHovered(false)}} />
-          </a>
-        </Col>
-        <Col className='social-link'>
-          <a href="mailto:cindyxzhang@berkeley.edu" target="_blank">
-            <Image src={emailHovered ? emailHover : email}
-                   onMouseEnter={() => {setEmailHovered(true)}}
-                   onMouseLeave={() => {setEmailHovered(false)}} />
-          </a>
-        </Col>
-      </Row>
-    </Container>
-  )
-}
+// function Social() {
+//   const [linkedinHovered, setLinkedinHovered] = useState(false);
+//   const [instagramHovered, setInstagramHovered] = useState(false);
+//   const [githubHovered, setGithubHovered] = useState(false);
+//   const [emailHovered, setEmailHovered] = useState(false);
+//
+//   return (
+//     <Container className='social-links-container'>
+//       <Row md={2}>
+//         <Col className='social-link'>
+//           <a href="https://www.linkedin.com/in/cindy-x-zhang/" target="_blank">
+//             <Image src={linkedinHovered ? linkedinHover : linkedin}
+//                    onMouseEnter={() => {setLinkedinHovered(true)}}
+//                    onMouseLeave={() => {setLinkedinHovered(false)}} />
+//           </a>
+//         </Col>
+//         <Col className='social-link'>
+//           <a href="https://www.instagram.com/cindyzhang977/" target="_blank">
+//             <Image src={instagramHovered ? instagramHover : instagram}
+//                    onMouseEnter={() => {setInstagramHovered(true)}}
+//                    onMouseLeave={() => {setInstagramHovered(false)}} />
+//           </a>
+//         </Col>
+//         <Col className='social-link'>
+//           <a href="https://github.com/Cindyzhang977" target="_blank">
+//             <Image src={githubHovered ? githubHover : github}
+//                    onMouseEnter={() => {setGithubHovered(true)}}
+//                    onMouseLeave={() => {setGithubHovered(false)}} />
+//           </a>
+//         </Col>
+//         <Col className='social-link'>
+//           <a href="mailto:cindyxzhang@berkeley.edu" target="_blank">
+//             <Image src={emailHovered ? emailHover : email}
+//                    onMouseEnter={() => {setEmailHovered(true)}}
+//                    onMouseLeave={() => {setEmailHovered(false)}} />
+//           </a>
+//         </Col>
+//       </Row>
+//     </Container>
+//   )
+// }
 
 export default Home
