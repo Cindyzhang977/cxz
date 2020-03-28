@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38ce7ce882b6125c4fd96d1aa72c5f50",
+    "revision": "9e38eab02b874612c98a0d06029665b1",
     "url": "/cindyxzhang/index.html"
   },
   {
-    "revision": "3aeb3a865490aac93c1a",
+    "revision": "1b21bb8a38d18552c5a1",
     "url": "/cindyxzhang/static/css/2.83ace7dd.chunk.css"
   },
   {
-    "revision": "bbbfc12ba15cb1365f9b",
-    "url": "/cindyxzhang/static/css/main.c122d87b.chunk.css"
+    "revision": "73514c42ccd47ec01470",
+    "url": "/cindyxzhang/static/css/main.bacf2429.chunk.css"
   },
   {
-    "revision": "3aeb3a865490aac93c1a",
-    "url": "/cindyxzhang/static/js/2.11120cf4.chunk.js"
+    "revision": "1b21bb8a38d18552c5a1",
+    "url": "/cindyxzhang/static/js/2.f7a974b6.chunk.js"
   },
   {
-    "revision": "bbbfc12ba15cb1365f9b",
-    "url": "/cindyxzhang/static/js/main.8966f45e.chunk.js"
+    "revision": "73514c42ccd47ec01470",
+    "url": "/cindyxzhang/static/js/main.aca145ea.chunk.js"
   },
   {
     "revision": "56cf4d870f391613630b",
@@ -40,14 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cindyxzhang/static/media/dolby.4dfad477.jpg"
   },
   {
-    "revision": "4fa1c9e4ad9d2b827ba02e566daa61b4",
-    "url": "/cindyxzhang/static/media/email-hover.4fa1c9e4.png"
-  },
-  {
-    "revision": "9d12bda18b3968dceabf03285f34a34f",
-    "url": "/cindyxzhang/static/media/email.9d12bda1.png"
-  },
-  {
     "revision": "d387eaf87d94625f62205b0dc1ece4b0",
     "url": "/cindyxzhang/static/media/expense-tracker.d387eaf8.png"
   },
@@ -56,32 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cindyxzhang/static/media/expense.0c07055d.png"
   },
   {
-    "revision": "7acd83af409705a8f865a87005e1e5a5",
-    "url": "/cindyxzhang/static/media/github-hover.7acd83af.png"
-  },
-  {
-    "revision": "2322f0b72e408db4aec2800ee284014a",
-    "url": "/cindyxzhang/static/media/github.2322f0b7.png"
-  },
-  {
     "revision": "aece997118f8837a30f3ca4a11b68fa8",
     "url": "/cindyxzhang/static/media/google.aece9971.png"
-  },
-  {
-    "revision": "b3808aff183da2e1efafe9a01c2ab53f",
-    "url": "/cindyxzhang/static/media/instagram-hover.b3808aff.png"
-  },
-  {
-    "revision": "e334c7b4cae1458e63f8095d8aa24020",
-    "url": "/cindyxzhang/static/media/instagram.e334c7b4.png"
-  },
-  {
-    "revision": "154ed858116fb1996bda498fd7a7970c",
-    "url": "/cindyxzhang/static/media/linkedin-hover.154ed858.png"
-  },
-  {
-    "revision": "08256bc757d5a8b994bd565709a51176",
-    "url": "/cindyxzhang/static/media/linkedin.08256bc7.png"
   },
   {
     "revision": "42ed7edc2130b076c0e2850a13e340d3",
