@@ -6,10 +6,10 @@
     "runtime-main.js": "/cindyxzhang/static/js/runtime-main.eee89954.js",
     "runtime-main.js.map": "/cindyxzhang/static/js/runtime-main.eee89954.js.map",
     "static/css/2.83ace7dd.chunk.css": "/cindyxzhang/static/css/2.83ace7dd.chunk.css",
-    "static/js/2.941ca1f1.chunk.js": "/cindyxzhang/static/js/2.941ca1f1.chunk.js",
-    "static/js/2.941ca1f1.chunk.js.map": "/cindyxzhang/static/js/2.941ca1f1.chunk.js.map",
+    "static/js/2.b57e7f83.chunk.js": "/cindyxzhang/static/js/2.b57e7f83.chunk.js",
+    "static/js/2.b57e7f83.chunk.js.map": "/cindyxzhang/static/js/2.b57e7f83.chunk.js.map",
     "index.html": "/cindyxzhang/index.html",
-    "precache-manifest.43b87b62f64de5d9355b9cb3c6fcf82e.js": "/cindyxzhang/precache-manifest.43b87b62f64de5d9355b9cb3c6fcf82e.js",
+    "precache-manifest.5a5b9d8eb1daaea7a89452291e6a3dd4.js": "/cindyxzhang/precache-manifest.5a5b9d8eb1daaea7a89452291e6a3dd4.js",
     "service-worker.js": "/cindyxzhang/service-worker.js",
     "static/css/2.83ace7dd.chunk.css.map": "/cindyxzhang/static/css/2.83ace7dd.chunk.css.map",
     "static/css/main.ff842070.chunk.css.map": "/cindyxzhang/static/css/main.ff842070.chunk.css.map",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.eee89954.js",
     "static/css/2.83ace7dd.chunk.css",
-    "static/js/2.941ca1f1.chunk.js",
+    "static/js/2.b57e7f83.chunk.js",
     "static/css/main.ff842070.chunk.css",
     "static/js/main.b791bf73.chunk.js"
   ]
