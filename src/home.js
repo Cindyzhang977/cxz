@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './views/home.css'
 import { Col, Row, Image, Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleDown, faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleDown, faArrowDown, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
+import { faGithubSquare, faInstagramSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import profile from './imgs/profile.jpg'
 import instagram from './imgs/instagram.png'
@@ -22,7 +23,14 @@ function Home() {
         <Row>
           <Col sm={8} lg={4} className='profile'>
             <Image src={profile} alt='profile picture' roundedCircle />
-            <Social />
+            <Container>
+              <Row className='social'>
+                <a href="https://www.linkedin.com/in/cindy-x-zhang/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className='social-link' /></a>
+                <a href="https://github.com/Cindyzhang977" target="_blank"><FontAwesomeIcon icon={faGithubSquare} className='social-link' /></a>
+                <a href="https://www.instagram.com/cindyzhang977/" target="_blank" ><FontAwesomeIcon icon={faInstagramSquare} className='social-link' /></a>
+                <a href="mailto:cindyxzhang@berkeley.edu" target="_blank"><FontAwesomeIcon icon={faEnvelopeSquare} className='social-link' /></a>
+              </Row>
+            </Container>
           </Col>
           <Col>
           <p id='hello'>
