@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Container, Row, Col, Accordion, Button } from 'react-bootstrap'
+import { Accordion } from 'react-bootstrap'
 import './views/experience.css'
 
 import google from './imgs/experience/google.png'
@@ -46,9 +46,11 @@ const timelineData = [
         title: 'Google',
         subtitle: 'STEP Intern | May - August 2020',
         description: <div>
-                      I will be on the Google Travel Packages team in Cambridge, MA.
+                      I'm currently virtually interning with the Google Travel Packages team based in Cambridge, MA.
                      </div>,
-        details: 'More details coming soon!',
+        details: <div>
+                  More details coming soon!
+                 </div>,
         img: google
     },
     {

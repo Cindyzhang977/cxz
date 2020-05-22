@@ -87,11 +87,11 @@ function ProjectDetails(props) {
 
 const projects = [
   {
-    name: 'Minimum Dominating Network',
+    name: 'Min Dominating Network',
     langs: 'Python',
-    description: 'Approximation algorithm for an Np-Hard problem.',
+    description: 'Approximation algorithm for an NP-Hard problem related to dominating sets.',
     img: expenseImg,
-    details: <Expense />,
+    details: <MinDomNetwork />,
     link: 'https://github.com/Cindyzhang977/expense'
   },
   {
@@ -128,6 +128,19 @@ const projects = [
   }
 ]
 
+function MinDomNetwork() {
+  return (
+    <Container>
+      <p>
+        Hello
+      </p>
+      <p>
+        World
+      </p>
+    </Container>
+  )
+}
+
 function Expense() {
   return (
     <Container>
@@ -145,9 +158,7 @@ function Expense() {
           </ul>
         </p>
         <p className='comment'>
-          This was my first React project, and it made me realize the importance of thinking
-          away from the keyboard and carefully mapping out relationships
-          between components before diving into code.
+          This was the project I built when I was first teaching myself react.
         </p>
         </Col>
         <Col md>
@@ -172,10 +183,6 @@ function BlackjackBot() {
               a calculated probability of losing the game. Game outcomes were analyzed by visualizing win rates
               with respect to the strategy and starting cards.
           </p>
-          <p className='comment'>
-            I learned that test driven development helps clarify the end goal for a group project
-            so that everyone knows what the code should output.
-          </p>
         </Col>
         <Col md>
           <Image className='proj-img' src={blackjackDetailImg} />
@@ -199,10 +206,6 @@ function Musique() {
           The Spotify Web API was used to retrieve user data to
           easily access saved songs in their Spotify account.
         </p>
-        <p className='comment'>
-          Not only was this my first time learning back end, but it was also
-          my first hackathon project (CalHacks)!
-        </p>
         </Col>
         <Col md>
           <Image className='proj-img' src={musiqueDetailImg} />
@@ -223,11 +226,6 @@ function Maze() {
       <p>
         Prims' algorithm was used to find the most efficient way to place hallways between rooms.
         A Weighted Quick Union object was used to check that all rooms are connected.
-      </p>
-      <p className='comment'>
-        Plan, plan, plan! As a partner project, it was even more crucial that we shared a clear understanding of our implementation.
-        We spent hours drawing out different algorithms and writing pseudocode,
-        which made dividing the tasks easier and avoided conflicting code.
       </p>
     </Container>
   )
