@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Card, Col, Row, Container, Image, Modal, Button } from 'react-bootstrap'
+import { Card, Col, Row, Container, Image, Modal } from 'react-bootstrap'
 import './views/projects.css'
 
 import expenseImg from './imgs/projects/expense.png'
@@ -14,12 +14,7 @@ import musiqueDetailImg from './imgs/projects/join-queue.png'
 function Projects() {
 
   const [modalShow, setModalShow] = useState(false);
-  const [projNum, setProjNum] = useState(0);
-
-  const projects = [['Expense', <Expense />, 'https://github.com/Cindyzhang977/expense'],
-                    ['BlackJack Bot', <BlackjackBot />, 'https://github.com/richardju97/card-games'],
-                    ['Musique', <Musique />, 'https://github.com/Cindyzhang977/musique'],
-                    ['2D Maze Game', <Maze />, '']]
+  const [currProj, setCurrProj] = useState(0);
 
   function ProjectCard(props) {
     return (
@@ -43,39 +38,28 @@ function Projects() {
     <>
       <ProjectDetails show={modalShow}
                       onHide={() => setModalShow(false)}
-                      name={projects[projNum][0]}
-                      description={projects[projNum][1]}
-                      link={projects[projNum][2]}
+                      name={currProj.name}
+                      description={currProj.details}
+                      link={currProj.link}
         />
       <Container className='projects-container'>
         <Row>
-          <Col xl={4} md={6}  onClick={() => setProjNum(0)}>
-            <ProjectCard name='Expense' langs='React'
-                         description='Budgeting web app for users to manage their finances.'
-                         img={expenseImg}/>
-          </Col>
-          <Col xl={4} md={6} onClick={() => setProjNum(1)}>
-            <ProjectCard name='BlackJack Bot' langs='Python, React'
-                         description='Simulated different blackjack strategies and reported their performance.'
-                         img={blackjackImg}/>
-          </Col>
-          <Col xl={4} md={6} onClick={() => setProjNum(2)}>
-            <ProjectCard name='Musique' langs='MERN Stack'
-                         description='Group music queue integrated with user Spotify account.'
-                         img={musiqueImg}/>
-          </Col>
-          <Col xl={4} md={6} onClick={() => setProjNum(3)}>
-            <ProjectCard name='2D Maze Game' langs='Java'
-                         description='Random world generator that produced connected rooms and hallways.'
-                         img={mazeImg}/>
-          </Col>
+          {
+            projects.map((proj, idx) => (
+              <Col xl={4} md={6}  onClick={() => setCurrProj(proj)}>
+                <ProjectCard name={proj.name}
+                             langs={proj.langs}
+                             description={proj.description}
+                             img={proj.img}
+                             key={idx}/>
+              </Col>
+            ))
+          }
         </Row>
       </Container>
     </>
   )
 }
-
-
 
 function ProjectDetails(props) {
   return (
@@ -100,6 +84,49 @@ function ProjectDetails(props) {
     </Modal>
   );
 }
+
+const projects = [
+  {
+    name: 'Minimum Dominating Network',
+    langs: 'Python',
+    description: 'Approximation algorithm for an Np-Hard problem.',
+    img: expenseImg,
+    details: <Expense />,
+    link: 'https://github.com/Cindyzhang977/expense'
+  },
+  {
+    name: 'Expense',
+    langs: 'React',
+    description: 'Budgeting web app for users to manage their finances.',
+    img: expenseImg,
+    details: <Expense />,
+    link: 'https://github.com/Cindyzhang977/expense'
+  },
+  {
+    name: 'BlackJack Bot',
+    langs: 'Python, React',
+    description: 'Simulated different blackjack strategies and reported their performance.',
+    img: blackjackImg,
+    details: <BlackjackBot />,
+    link: 'https://github.com/richardju97/card-games'
+  },
+  {
+    name: 'Musique',
+    langs: 'MERN Stack',
+    description: 'Group music queue integrated with user Spotify account.',
+    img: musiqueImg,
+    details: <Musique />,
+    link: 'https://github.com/Cindyzhang977/musique'
+  },
+  {
+    name: '2D Maze Game',
+    langs: 'Java',
+    description: 'Random world generator that produced connected rooms and hallways.',
+    img: mazeImg,
+    details: <Maze />,
+    link: ''
+  }
+]
 
 function Expense() {
   return (
