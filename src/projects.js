@@ -10,6 +10,7 @@ import mazeImg from './imgs/projects/maze.png'
 import expenseDetailImg from './imgs/projects/expense-tracker.png'
 import blackjackDetailImg from './imgs/projects/blackjack-bot.png'
 import musiqueDetailImg from './imgs/projects/join-queue.png'
+import minDomNetworkImg from './imgs/projects/min-dom-network.png'
 
 function Projects() {
 
@@ -90,9 +91,9 @@ const projects = [
     name: 'Min Dominating Network',
     langs: 'Python',
     description: 'Approximation algorithm for an NP-Hard problem related to dominating sets.',
-    img: expenseImg,
+    img: minDomNetworkImg,
     details: <MinDomNetwork />,
-    link: 'https://github.com/Cindyzhang977/expense'
+    link: 'https://github.com/liuk22/Proj170'
   },
   {
     name: 'Expense',
@@ -133,9 +134,6 @@ function MinDomNetwork() {
     <Container>
       <p>
         Hello
-      </p>
-      <p>
-        World
       </p>
     </Container>
   )
