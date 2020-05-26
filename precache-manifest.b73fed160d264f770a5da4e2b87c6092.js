@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5f4551b25428862395295bb99759e1f",
+    "revision": "acad565a58901f0fbc52d5e54e893117",
     "url": "/cindyxzhang/index.html"
   },
   {
-    "revision": "e83ae69542d81b79d2ec",
-    "url": "/cindyxzhang/static/css/2.83ace7dd.chunk.css"
+    "revision": "0a932997d0c25cf872d4",
+    "url": "/cindyxzhang/static/css/2.1a880fc0.chunk.css"
   },
   {
-    "revision": "e9b1b9d84821834d13e3",
-    "url": "/cindyxzhang/static/css/main.bb542b8c.chunk.css"
+    "revision": "2ceb4273c690481daf09",
+    "url": "/cindyxzhang/static/css/main.39e12cfd.chunk.css"
   },
   {
-    "revision": "e83ae69542d81b79d2ec",
-    "url": "/cindyxzhang/static/js/2.3a01dc46.chunk.js"
+    "revision": "0a932997d0c25cf872d4",
+    "url": "/cindyxzhang/static/js/2.835c16b9.chunk.js"
   },
   {
-    "revision": "e9b1b9d84821834d13e3",
-    "url": "/cindyxzhang/static/js/main.2fb8bec6.chunk.js"
+    "revision": "2ceb4273c690481daf09",
+    "url": "/cindyxzhang/static/js/main.c43d98d9.chunk.js"
   },
   {
     "revision": "56cf4d870f391613630b",

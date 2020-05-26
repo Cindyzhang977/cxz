@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cindyxzhang/static/css/main.bb542b8c.chunk.css",
-    "main.js": "/cindyxzhang/static/js/main.2fb8bec6.chunk.js",
-    "main.js.map": "/cindyxzhang/static/js/main.2fb8bec6.chunk.js.map",
+    "main.css": "/cindyxzhang/static/css/main.39e12cfd.chunk.css",
+    "main.js": "/cindyxzhang/static/js/main.c43d98d9.chunk.js",
+    "main.js.map": "/cindyxzhang/static/js/main.c43d98d9.chunk.js.map",
     "runtime-main.js": "/cindyxzhang/static/js/runtime-main.eee89954.js",
     "runtime-main.js.map": "/cindyxzhang/static/js/runtime-main.eee89954.js.map",
-    "static/css/2.83ace7dd.chunk.css": "/cindyxzhang/static/css/2.83ace7dd.chunk.css",
-    "static/js/2.3a01dc46.chunk.js": "/cindyxzhang/static/js/2.3a01dc46.chunk.js",
-    "static/js/2.3a01dc46.chunk.js.map": "/cindyxzhang/static/js/2.3a01dc46.chunk.js.map",
+    "static/css/2.1a880fc0.chunk.css": "/cindyxzhang/static/css/2.1a880fc0.chunk.css",
+    "static/js/2.835c16b9.chunk.js": "/cindyxzhang/static/js/2.835c16b9.chunk.js",
+    "static/js/2.835c16b9.chunk.js.map": "/cindyxzhang/static/js/2.835c16b9.chunk.js.map",
     "index.html": "/cindyxzhang/index.html",
-    "precache-manifest.4235dc2762ae1d75781494a044106d5e.js": "/cindyxzhang/precache-manifest.4235dc2762ae1d75781494a044106d5e.js",
+    "precache-manifest.b73fed160d264f770a5da4e2b87c6092.js": "/cindyxzhang/precache-manifest.b73fed160d264f770a5da4e2b87c6092.js",
     "service-worker.js": "/cindyxzhang/service-worker.js",
-    "static/css/2.83ace7dd.chunk.css.map": "/cindyxzhang/static/css/2.83ace7dd.chunk.css.map",
-    "static/css/main.bb542b8c.chunk.css.map": "/cindyxzhang/static/css/main.bb542b8c.chunk.css.map",
+    "static/css/2.1a880fc0.chunk.css.map": "/cindyxzhang/static/css/2.1a880fc0.chunk.css.map",
+    "static/css/main.39e12cfd.chunk.css.map": "/cindyxzhang/static/css/main.39e12cfd.chunk.css.map",
     "static/media/berkeley.png": "/cindyxzhang/static/media/berkeley.a8552979.png",
     "static/media/blackjack-bot.png": "/cindyxzhang/static/media/blackjack-bot.e047dc3a.png",
     "static/media/blackjack.png": "/cindyxzhang/static/media/blackjack.97818a9e.png",
@@ -31,9 +31,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.eee89954.js",
-    "static/css/2.83ace7dd.chunk.css",
-    "static/js/2.3a01dc46.chunk.js",
-    "static/css/main.bb542b8c.chunk.css",
-    "static/js/main.2fb8bec6.chunk.js"
+    "static/css/2.1a880fc0.chunk.css",
+    "static/js/2.835c16b9.chunk.js",
+    "static/css/main.39e12cfd.chunk.css",
+    "static/js/main.c43d98d9.chunk.js"
   ]
 }
