@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "213bf96c031fa29d361b43a8d7765483",
+    "revision": "0cc9c67aaef31d6335dc62438983a750",
     "url": "/cindyxzhang/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cindyxzhang/static/css/2.1a880fc0.chunk.css"
   },
   {
-    "revision": "acb810dde44fc17272e7",
-    "url": "/cindyxzhang/static/css/main.39e12cfd.chunk.css"
+    "revision": "035fb7a522b495a5f797",
+    "url": "/cindyxzhang/static/css/main.04b8fd8d.chunk.css"
   },
   {
     "revision": "0a932997d0c25cf872d4",
     "url": "/cindyxzhang/static/js/2.835c16b9.chunk.js"
   },
   {
-    "revision": "acb810dde44fc17272e7",
-    "url": "/cindyxzhang/static/js/main.3da9a6e2.chunk.js"
+    "revision": "035fb7a522b495a5f797",
+    "url": "/cindyxzhang/static/js/main.ef9d03c9.chunk.js"
   },
   {
     "revision": "56cf4d870f391613630b",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cindyxzhang/static/media/profile.47db028b.jpg"
   },
   {
-    "revision": "ce9e33db237d897e0e89b4976c27742b",
-    "url": "/cindyxzhang/static/media/resume.ce9e33db.pdf"
+    "revision": "36ed72040a1004c2a9f85500059f2f08",
+    "url": "/cindyxzhang/static/media/resume.36ed7204.pdf"
   },
   {
     "revision": "96e69970c5d695660fce0cb303df2774",
