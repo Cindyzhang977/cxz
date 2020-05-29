@@ -35,7 +35,7 @@
 .button, .button:focus {
   float: right;
   text-align: center;
-  padding: 0.2rem 0.4rem;
+  padding: 0.2rem 0.5rem;
   background-color: var(--light-blue);
   border: 2px solid var(--light-blue);
   color: white;
@@ -51,6 +51,7 @@
 
 .modal .button {
   margin-right: 40px;
+  margin-bottom: 20px;
 }
 
 .proj-img {

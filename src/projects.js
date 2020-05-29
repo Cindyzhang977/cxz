@@ -133,7 +133,15 @@ function MinDomNetwork() {
   return (
     <Container>
       <p>
-        Hello
+        Working in a team of 3, we designed an approximation algorithm for the problem of finding a subtree T in
+        a given graph G so that all vertices in G are either in T or adjacent to a vertex in T. In other words,
+        T must be a tree and a dominating set. The goal was to generate a T such that average pairwise distance between vertices
+        in T are minimized.
+      </p>
+      <p>
+        As a brief overview of our implementation, we first generated a minimum spanning tree and a steiner tree whose
+        terminals are an approximate minimum dominating set. Then we picked the better solution to futher optimize.
+        We used simulated annealing to prune leaves from our greedy solution to minimize average pairwise distance.
       </p>
     </Container>
   )
