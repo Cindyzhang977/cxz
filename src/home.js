@@ -31,8 +31,7 @@ function Home() {
           <p>
             I'm Cindy Zhang, a second year at UC Berkeley majoring in Computer Science.
             Out of all the classes I've taken at Berkeley, I've enjoyed CS170 (algorithms) and CS61B (data structures)
-            the most, and I'm currently a tutor for <a href='https://www2.eecs.berkeley.edu/Courses/CS61B/' target='_blank'>CS61B</a>.
-            I'm also a researcher in the Systems Design and Integration Division
+            the most. I'm also a researcher in the Systems Design and Integration Division
             of <a href='https://cubes.space/' target='_blank'>CUBES</a> at Berkeley,
             where I code object-oriented models to simulate a human Mars mission.
           </p>
@@ -51,47 +50,5 @@ function Home() {
     </div>
   )
 }
-
-// function Social() {
-//   const [linkedinHovered, setLinkedinHovered] = useState(false);
-//   const [instagramHovered, setInstagramHovered] = useState(false);
-//   const [githubHovered, setGithubHovered] = useState(false);
-//   const [emailHovered, setEmailHovered] = useState(false);
-//
-//   return (
-//     <Container className='social-links-container'>
-//       <Row md={2}>
-//         <Col className='social-link'>
-//           <a href="https://www.linkedin.com/in/cindy-x-zhang/" target="_blank">
-//             <Image src={linkedinHovered ? linkedinHover : linkedin}
-//                    onMouseEnter={() => {setLinkedinHovered(true)}}
-//                    onMouseLeave={() => {setLinkedinHovered(false)}} />
-//           </a>
-//         </Col>
-//         <Col className='social-link'>
-//           <a href="https://www.instagram.com/cindyzhang977/" target="_blank">
-//             <Image src={instagramHovered ? instagramHover : instagram}
-//                    onMouseEnter={() => {setInstagramHovered(true)}}
-//                    onMouseLeave={() => {setInstagramHovered(false)}} />
-//           </a>
-//         </Col>
-//         <Col className='social-link'>
-//           <a href="https://github.com/Cindyzhang977" target="_blank">
-//             <Image src={githubHovered ? githubHover : github}
-//                    onMouseEnter={() => {setGithubHovered(true)}}
-//                    onMouseLeave={() => {setGithubHovered(false)}} />
-//           </a>
-//         </Col>
-//         <Col className='social-link'>
-//           <a href="mailto:cindyxzhang@berkeley.edu" target="_blank">
-//             <Image src={emailHovered ? emailHover : email}
-//                    onMouseEnter={() => {setEmailHovered(true)}}
-//                    onMouseLeave={() => {setEmailHovered(false)}} />
-//           </a>
-//         </Col>
-//       </Row>
-//     </Container>
-//   )
-// }
 
 export default Home
