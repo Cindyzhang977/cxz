@@ -1,0 +1,78 @@
+.projects-container {
+  flex-wrap: wrap;
+  margin-bottom: 7%;
+}
+
+.card-container {
+  margin: 15px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 0 -1px rgba(0,0,0,.06);
+}
+
+.card-title {
+  color: var(--navy);
+  padding-bottom: 3.5px;
+  border-bottom: 2.2px solid var(--light-peach);
+  font-weight: 600;
+}
+
+.card-subtitle {
+  color: var(--grey);
+  margin-bottom: 5px;
+}
+
+.card-text {
+  height: 75px;
+}
+
+.card-img {
+  object-fit: cover;
+  height: 180px;
+  padding: 0;
+}
+
+.button, .button:focus {
+  float: right;
+  text-align: center;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--light-blue);
+  border: 2px solid var(--light-blue);
+  color: white;
+  outline: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--light-blue);
+  border-color: var(--light-blue);
+}
+
+.modal .button {
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.proj-img {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.comment {
+  font-style: italic;
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+.gRoutes-demo {
+  margin: auto;
+  height: 420px;
+  width: 95%;
+}
+
+.g-gray {
+  color: #999999;
+}
+
+.g-blue {
+  color: #4285f4;
+}
