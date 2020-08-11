@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:900&display=swap');
+
+:root {
+  --navy: #192536;
+  --light-blue: #87cacc;
+  --light-peach: #dcbeb4;
+  --peach: #d9a493;
+  --grey: #484848;
+  --off-white: #ededed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: #1b2d45;
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin: 30px;
+  padding-top: 7%;
+  font-family: 'Noto Sans TC';
+}
+
+h1::before {
+  content: '<';
+  margin-right: 5px;
+}
+
+h1::after {
+  content: '/>';
+  margin-left: 5px;
+}
+
+h1::after, h1::before {
+  color: var(--light-blue);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2rem;
+}
+
+.body {
+  margin: auto;
+  color: #242424;
+  max-width: 1250px;
+  width: 80%;
+}
+
+.navbar {
+  padding: 10px 20px;
+}
+
+.navlink {
+  color: var(--off-white) !important;
+}
+
+.navlink:hover {
+  color: var(--light-peach) !important;
+}
+
+.footer {
+  background-color: var(--navy);
+  margin-top: 50px;
+  padding: 1rem;
+}
+
+.contacts {
+  max-width: 200px;
+  justify-content: space-around;
+  margin: auto;
+  font-size: 2.5rem;
+}
+
+.contact {
+  color: var(--off-white);
+}
+
+#copyright {
+  color: var(--off-white);
+  margin: auto;
+}
+
+.contact:hover {
+  color: var(--light-peach);
+}
+
+#copyright::before {
+  content: '\00A9';
+  margin-right: 3px;
+}

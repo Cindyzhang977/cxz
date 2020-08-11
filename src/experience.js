@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Accordion } from 'react-bootstrap'
-import './views/experience.css'
+import './styles/experience.css'
 
 import google from './imgs/experience/google.png'
 import cubes from './imgs/experience/cubes.png'
@@ -57,12 +57,12 @@ const timelineData = [
         title: 'CUBES',
         subtitle: 'Researcher | March 2020 - Present',
         description: <div>
-                      At <a href='https://cubes.space/' target='_blank'>CUBES</a> (Center for the Utilization of Biological Engineering in Space),
+                      At <a href='https://cubes.space/' target='_blank' rel="noopener noreferrer">CUBES</a> (Center for the Utilization of Biological Engineering in Space),
                       I'm working on building object oriented models to simulate and optimize a
                       biologically-driven Mars exploration mission.
                      </div>,
         details: <div>
-                  <a href='http://pycatshoo.org/' target='_blank'>PyCATSHOO</a> is used to model
+                  <a href='http://pycatshoo.org/' target='_blank' rel="noopener noreferrer">PyCATSHOO</a> is used to model
                   hybrid systems and simulate processes that would take place on a long-term human mission to Mars.
                  </div>,
         img: cubes
@@ -71,7 +71,7 @@ const timelineData = [
         title: 'Triton',
         subtitle: 'Front End Intern | November 2019 - February 2020',
         description: <div>
-                     I redesigned a revamped <a href='https://triton.ml/' target='_blank'>Triton's webite</a> using
+                     I redesigned a revamped <a href='https://triton.ml/' target='_blank' rel="noopener noreferrer">Triton's webite</a> using
                      React with Redux. On the website, customers can sign up for their service or request a demo,
                      and this automatically sends a slackbot notification to Triton.
                      </div>,

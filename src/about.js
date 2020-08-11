@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './views/about.css'
+import './styles/about.css'
 import { Container, Col, Row, Image } from 'react-bootstrap'
 
 import wushu from './imgs/wushu-collage.png'

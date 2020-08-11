@@ -1,0 +1,33 @@
+.about-container {
+  margin-top: 20px;
+}
+
+.about-desc-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.row {
+  align-items: center;
+}
+
+.about-img {
+  max-width: 450px;
+}
+
+.about-title {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--navy);
+  border-left: 8px solid var(--light-peach);
+  margin-left: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .first-row {
+      flex-direction: column-reverse;
+  }
+}
