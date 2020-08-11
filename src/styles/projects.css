@@ -65,7 +65,8 @@
 
 .gRoutes-demo {
   margin: auto;
-  height: 420px;
+  margin-bottom: 16px;
+  height: 400px;
   width: 95%;
 }
 

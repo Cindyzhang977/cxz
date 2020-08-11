@@ -6,15 +6,19 @@ import './styles/projects.css'
 import expenseDetailImg from './imgs/projects/expense-tracker.png'
 import blackjackDetailImg from './imgs/projects/blackjack-bot.png'
 import musiqueDetailImg from './imgs/projects/join-queue.png'
-import gRoutesDemo from './imgs/projects/gRoutes-demo.mp4'
 
 export function GRoutes() {
     return (
         <Container>
             <Row>
-                <video autoPlay className="gRoutes-demo">
-                    <source src={gRoutesDemo} type="video/mp4" alt="gRoutes demo video" />
-                </video>
+            <iframe 
+                className="gRoutes-demo"
+                src="https://www.youtube.com/embed/uTeNqPzuk-M?autoplay=1" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+            >
+            </iframe>
             </Row>
             <Row>
                 <p>
