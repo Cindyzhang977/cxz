@@ -46,17 +46,22 @@ const timelineData = [
         title: 'Google',
         subtitle: 'STEP Intern | May - August 2020',
         description: <div>
-                      As a STEP intern in Google Travel, I worked with two other interns to build a webapp that increases 
-                      exploration of non mainstream attractions and streamlines the trip planning process. The webapp presents 
-                      users with a wall of images of attractions nearby a specific location from which the user can select 
-                      places of interest. Then users can drag and drop the order of attractions to customize their route or optimize 
-                      their route with a 2-approximate Traveling Salesman algorithm. Once the trip is created, it can be saved and shared.  
+                      As a STEP intern in Google Travel, I worked with two other interns to build a webapp with React frontend 
+                      and Java Servlet backend that increases exploration of non mainstream attractions and streamlines the trip 
+                      planning process. View demo video <a href="https://youtu.be/uTeNqPzuk-M" target="_blank" rel="noopener noreferrer">here</a>!  
                      </div>,
         details: <div>
-                  Needless to say, this was an amazing internship. I experienced the entire development process from ideation to deployment. 
-                  I learned how to write a good design document, the code review process, git workflows, and proper unit testing. Even though 
-                  this was a virtual internship, I felt very connected with my team and Google in general. There were so many intern events,
-                  and I took advantage of the ease of virtual coffee chats to connect with Googlers to learn about their experiences. 
+                  <div>
+                    Various Google APIs were integrated to query nearby attractions, display their images, render maps with pins and directions,
+                    and autocomplete searches. The route between selected attractions could be customized with drag and drop rearrangement or optimized with a 2-approximate 
+                    Traveling Salesman algorithm. Finally, once the trip is created, it can be saved and shared. 
+                  </div>
+                  <div style={{marginTop: 10}}>
+                    Needless to say, this was an amazing internship. I experienced the entire development process from ideation to deployment. 
+                    I learned how to write a good design document, the code review process, git workflows, and proper unit testing. Even though 
+                    this was a virtual internship, I felt very connected with my team and Google in general. There were so many intern events,
+                    and I took advantage of the ease of virtual coffee chats to connect with Googlers to learn about their experiences. 
+                  </div>
                  </div>,
         img: google
     },

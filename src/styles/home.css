@@ -76,7 +76,7 @@ p {
 
 @media (max-height: 800px) and (min-width: 1300px) {
   .home-container {
-    min-height: 100vh;
+    min-height: 78vh;
   }
 
   .arrow {

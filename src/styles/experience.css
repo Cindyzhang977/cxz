@@ -1,5 +1,4 @@
 .experience-container {
-  /* border: 2px solid purple; */
   margin-top: 30px;
   margin-left: 6%;
   margin-bottom: 50px;
@@ -26,8 +25,7 @@
 .timeline-item {
   padding: 3%;
   padding-left: 30px;
-  max-width: 800px;
-  /* position: relative; */
+  max-width: 880px;
 }
 
 .title-container {

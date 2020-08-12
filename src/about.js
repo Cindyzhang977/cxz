@@ -1,7 +1,9 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/about.css'
-import { Container, Col, Row, Image } from 'react-bootstrap'
+import { Container, Col, Row, Image, Button } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCamera } from '@fortawesome/free-solid-svg-icons'
 
 import wushu from './imgs/wushu-collage.png'
 import travel from './imgs/travel-collage.png'
@@ -43,6 +45,10 @@ function About() {
               involves visiting nearby parks, I'm always eager to spend the day outside.
               I'm particularly obsessed with beach trips and finding nice places to watch the sunset.
             </p>
+            <Button href="https://photo-portfolio-285516.wl.r.appspot.com/" className="portfolio-btn">
+            <FontAwesomeIcon icon={faCamera} className="photo-icon" />
+            Photos Portfolio
+          </Button>
           </div>
         </Col>
       </Row>
