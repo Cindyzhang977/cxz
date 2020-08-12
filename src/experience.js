@@ -46,10 +46,17 @@ const timelineData = [
         title: 'Google',
         subtitle: 'STEP Intern | May - August 2020',
         description: <div>
-                      I'm currently virtually interning with the Google Travel Packages team based in Cambridge, MA.
+                      As a STEP intern in Google Travel, I worked with two other interns to build a webapp that increases 
+                      exploration of non mainstream attractions and streamlines the trip planning process. The webapp presents 
+                      users with a wall of images of attractions nearby a specific location from which the user can select 
+                      places of interest. Then users can drag and drop the order of attractions to customize their route or optimize 
+                      their route with a 2-approximate Traveling Salesman algorithm. Once the trip is created, it can be saved and shared.  
                      </div>,
         details: <div>
-                  More details coming soon!
+                  Needless to say, this was an amazing internship. I experienced the entire development process from ideation to deployment. 
+                  I learned how to write a good design document, the code review process, git workflows, and proper unit testing. Even though 
+                  this was a virtual internship, I felt very connected with my team and Google in general. There were so many intern events,
+                  and I took advantage of the ease of virtual coffee chats to connect with Googlers to learn about their experiences. 
                  </div>,
         img: google
     },
@@ -69,7 +76,7 @@ const timelineData = [
     },
     {
         title: 'Triton',
-        subtitle: 'Front End Intern | November 2019 - February 2020',
+        subtitle: 'Part Time Intern | November 2019 - February 2020',
         description: <div>
                      I redesigned a revamped <a href='https://triton.ml/' target='_blank' rel="noopener noreferrer">Triton's webite</a> using
                      React with Redux. On the website, customers can sign up for their service or request a demo,
@@ -84,7 +91,7 @@ const timelineData = [
     },
     {
         title: 'Berkeley EECS Department',
-        subtitle: 'CS61B Tutor | August 2019 - Present',
+        subtitle: 'CS 61B Tutor | August 2019 - Present',
         description: <div>
                       For the Data Structures course at Berkeley, I teach weekly small sections,
                       guide students in office hours, and develop tutoring worksheets.
