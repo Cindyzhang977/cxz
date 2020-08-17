@@ -12,10 +12,11 @@ export function GRoutes() {
         <Container>
             <Row>
             <iframe 
-                className="gRoutes-demo"
+                className="demo-video"
                 src="https://www.youtube.com/embed/uTeNqPzuk-M?autoplay=1" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                title="groutes demo"
                 allowFullScreen
             >
             </iframe>
@@ -34,6 +35,33 @@ export function GRoutes() {
             </Row>
         </Container>
     )
+}
+
+export function StackoverflowScraper() {
+  return (
+      <Container>
+          <Row>
+          <iframe 
+              className="demo-video"
+              src="https://www.youtube.com/embed/4oSAqtPvEvo?autoplay=1" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              title="stackoverflow scrapper demo"
+              allowFullScreen
+          >
+          </iframe>
+          </Row>
+          <Row>
+              <p>
+                This StackOverflow Scraper makes development easier by allowing users to browse through posts and its top response without clicking through links. 
+                If an answer looks promising, users can click to view the full post on StackOverflow.
+              </p>
+              <p>
+                The python BeautifulSoup library was used to scrape web pages. 
+              </p>
+          </Row>
+      </Container>
+  )
 }
 
 export function MinDomNetwork() {

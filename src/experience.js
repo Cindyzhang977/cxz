@@ -96,7 +96,7 @@ const timelineData = [
     },
     {
         title: 'Berkeley EECS Department',
-        subtitle: 'CS 61B Tutor | August 2019 - Present',
+        subtitle: 'CS 61B Tutor | August 2019 - May 2020',
         description: <div>
                       For the Data Structures course at Berkeley, I teach weekly small sections,
                       guide students in office hours, and develop tutoring worksheets.

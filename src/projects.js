@@ -10,6 +10,7 @@ import musiqueImg from './imgs/projects/musique.png'
 import mazeImg from './imgs/projects/maze.png'
 import minDomNetworkImg from './imgs/projects/min-dom-network.png'
 import gRoutesImg from './imgs/projects/gRoutes.png'
+import stackoverflowScraperImg from './imgs/projects/stackoverflow-scraper.png'
 
 function Projects() {
 
@@ -93,6 +94,14 @@ const projects = [
     img: gRoutesImg,
     details: ProjectDetails.GRoutes(),
     link: 'https://github.com/googleinterns/step88-2020'
+  },
+  {
+    name: 'StackOverflow Scraper',
+    langs: 'React, Flask',
+    description: 'Scrape StackOverflow posts for bug, error, and implementation solutions.',
+    img: stackoverflowScraperImg,
+    details: ProjectDetails.StackoverflowScraper(),
+    link: 'https://github.com/Cindyzhang977/stackoverflow-scraper'
   },
   {
     name: 'Min Dominating Network',
