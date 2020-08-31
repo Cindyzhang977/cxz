@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Card, Col, Row, Container, Modal } from 'react-bootstrap'
 import './styles/projects.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 import * as ProjectDetails from './projectDetails.js'
 import expenseImg from './imgs/projects/expense.png'
@@ -14,8 +16,23 @@ import stackoverflowScraperImg from './imgs/projects/stackoverflow-scraper.png'
 
 function Projects() {
 
+  const NUM_PROJ = 5;
+
   const [modalShow, setModalShow] = useState(false);
   const [currProj, setCurrProj] = useState(0);
+  const [showMoreProjects, setShowMoreProjects] = useState(false);
+
+  function ShowMoreToggle() {
+    return (
+      <div className="show-more-container" onClick={() => setShowMoreProjects(!showMoreProjects)}>
+        <FontAwesomeIcon icon={showMoreProjects ? faArrowLeft : faArrowRight} className="toggle-arrow"/>
+        <div>
+          Show {showMoreProjects ? 'less' : 'more'}
+        </div>
+      </div>
+    )
+  
+  }
 
   function ProjectCard(props) {
     return (
@@ -46,16 +63,17 @@ function Projects() {
       <Container className='projects-container'>
         <Row>
           {
-            projects.map((proj, idx) => (
+            (showMoreProjects ? projects : projects.slice(0, NUM_PROJ)).map((proj, idx) => (
               <Col xl={4} md={6}  onClick={() => setCurrProj(proj)} key={idx}>
                 <ProjectCard name={proj.name}
-                             langs={proj.langs}
-                             description={proj.description}
-                             img={proj.img}
-                             key={idx}/>
+                            langs={proj.langs}
+                            description={proj.description}
+                            img={proj.img}
+                            key={idx}/>
               </Col>
             ))
           }
+          <ShowMoreToggle />
         </Row>
       </Container>
     </>

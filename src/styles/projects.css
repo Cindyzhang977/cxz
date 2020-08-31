@@ -77,3 +77,24 @@
 .g-blue {
   color: #4285f4;
 }
+
+.show-more-container {
+  align-items: center;
+  color: var(--navy);
+  display: flex;
+  margin-left: 32px;
+  min-height: 160px;
+  text-align: center;
+  transition: margin-left 0.5s;
+}
+
+.toggle-arrow {
+  font-size: 40px;
+  margin-right: 8px;
+}
+
+.show-more-container:hover {
+  color: var(--peach);
+  cursor: pointer;
+  margin-left: 40px;
+}

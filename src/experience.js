@@ -14,7 +14,7 @@ function Experience() {
     <div className='experience-container'>
       <Accordion className='timeline'>
         {timelineData.map((data, idx) => (
-          <TimelineItem data={data} key={idx} eventKey={idx}/>
+          <TimelineItem data={data} key={idx} eventKey={'event-' + idx}/>
         ))}
       </Accordion>
     </div>
@@ -31,7 +31,7 @@ const TimelineItem = ({ data, eventKey }) => (
       <h5>{data.subtitle}</h5>
       <div className='timeline-item-content'>
         <div>{data.description}</div>
-          <Accordion.Toggle className='toggle' eventKey={eventKey}>
+          <Accordion.Toggle className='toggle' eventKey={eventKey} onClick={() => {console.log(eventKey)}}>
             Read More
           </Accordion.Toggle>
           <Accordion.Collapse eventKey={eventKey}>
