@@ -9,7 +9,6 @@ import * as ProjectDetails from './projectDetails.js'
 import expenseImg from './imgs/projects/expense.png'
 import blackjackImg from './imgs/projects/blackjack.png'
 import musiqueImg from './imgs/projects/musique.png'
-import mazeImg from './imgs/projects/maze.png'
 import minDomNetworkImg from './imgs/projects/min-dom-network.png'
 import gRoutesImg from './imgs/projects/gRoutes.png'
 import stackoverflowScraperImg from './imgs/projects/stackoverflow-scraper.png'
@@ -152,14 +151,6 @@ const projects = [
     img: musiqueImg,
     details: ProjectDetails.Musique(),
     link: 'https://github.com/Cindyzhang977/musique'
-  },
-  {
-    name: '2D Maze Game',
-    langs: 'Java',
-    description: 'Random world generator that produced connected rooms and hallways.',
-    img: mazeImg,
-    details: ProjectDetails.Maze(),
-    link: ''
   }
 ]
 
