@@ -33,7 +33,7 @@ function App() {
               <About />
             </div>
           </Route>
-          <Route path="/cs61b">
+          <Route path="/cxz/cs61b">
             <CS61B />
           </Route>
         </Switch>
@@ -51,7 +51,7 @@ function NavBar() {
 
   return (
     <Navbar collapseOnSelect expand='lg' bg='navy' sticky='top' variant='dark' className='navbar'>
-    <Navbar.Brand href='/'><div className='navlink'>Cindy Zhang</div></Navbar.Brand>
+    <Navbar.Brand href='/cxz'><div className='navlink'>Cindy Zhang</div></Navbar.Brand>
     <Navbar.Toggle aria-controls='responsive-navbar-nav' className={is61b ? 'hide' : ''} />
       <Navbar.Collapse id='responsive-navbar-nav'>
         <Nav className={'ml-auto' + (is61b ? ' hide' : '')}>
