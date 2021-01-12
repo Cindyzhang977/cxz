@@ -83,3 +83,7 @@ h1::after, h1::before {
 .contact:hover {
   color: var(--light-peach);
 }
+
+.hide {
+  display: none;
+}

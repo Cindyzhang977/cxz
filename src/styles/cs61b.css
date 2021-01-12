@@ -1,0 +1,28 @@
+ul {
+  list-style-type: circle;
+}
+
+#greeting {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  margin: 36px 0 16px 0;
+  color: #1b2d45;
+}
+
+.section {
+  margin-top: 24px;
+}
+
+.header {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--navy);
+  border-left: 8px solid var(--light-peach);
+  margin: 8px 0;
+  padding-left: 8px;
+}
+
+.links {
+  margin-top: 16px;
+}
