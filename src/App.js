@@ -22,7 +22,7 @@ function App() {
       <NavBar />
       <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/cxz">
             <div className='body'>
               <Home />
               <h1 id='projects'>projects</h1>
