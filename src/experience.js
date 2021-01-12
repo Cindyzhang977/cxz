@@ -8,6 +8,7 @@ import cubes from './imgs/experience/cubes.png'
 import dolby from './imgs/experience/dolby.jpg'
 import berkeley from './imgs/experience/berkeley.png'
 import triton from './imgs/experience/triton.png'
+import citadel from './imgs/experience/citadel.jpg'
 
 function Experience() {
   return (
@@ -43,6 +44,17 @@ const TimelineItem = ({ data, eventKey }) => (
 
 const timelineData = [
     {
+      title: 'Citadel',
+      subtitle: 'SWE Intern | May - August 2021',
+      description: <div>
+                   I will be interning at Citadel in summer 2021 (hopefully in the New York office).  
+                   </div>,
+      details: <div>
+                More details coming soon!
+               </div>,
+      img: citadel
+    },
+    {
         title: 'Google',
         subtitle: 'STEP Intern | May - August 2020',
         description: <div>
@@ -67,7 +79,7 @@ const timelineData = [
     },
     {
         title: 'CUBES',
-        subtitle: 'Researcher | March 2020 - Present',
+        subtitle: 'Researcher | March 2020 - December 2021',
         description: <div>
                       At <a href='https://cubes.space/' target='_blank' rel="noopener noreferrer">CUBES</a> (Center for the Utilization of Biological Engineering in Space),
                       I'm working on building object oriented models to simulate and optimize a
@@ -96,14 +108,14 @@ const timelineData = [
     },
     {
         title: 'Berkeley EECS Department',
-        subtitle: 'CS 61B Tutor, CS 170 Reader | August 2019 - May 2020, August 2020 - Present',
+        subtitle: 'CS 61B TA (sp21), CS 170 Reader (sp21, fa20), CS 61B Tutor (sp20, fa19) | August 2019 - Present',
         description: <div>
-                      As a part of course staff at Berkeley, I've taught weekly small sections,
-                      as well as guided students in office hours.
+                      As a part of course staff at Berkeley, I've mostly taught weekly sections to guide students towards a 
+                      better understanding of the material. I also hold office hours, grade assignments, and develop course material. 
                       </div>,
         details: <div>
                  It's super rewarding to teach an introductory CS course at Berkeley, as I can make an
-                 impact on students' decisions to pursue the field. This was the course that
+                 impact on students' decisions to pursue the field. CS 61B and CS 170 were the courses that
                  really convinced me that I chose the right major.
                  (Plus, is it just me, or is it really satisfying to write on white boards?)
                  </div>,

@@ -60,7 +60,7 @@ function Footer() {
         <a href="mailto:cindyxzhang@berkeley.edu" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelopeSquare} className='contact' /></a>
       </Row>
       <Row>
-        <div id='copyright'>2020 | Cindy Zhang</div>
+        <div id='footer-text'>Last updated: Jan 2021 | Cindy Zhang</div>
       </Row>
     </Container>
   )

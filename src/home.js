@@ -30,10 +30,9 @@ function Home() {
           </p>
           <p>
             I'm Cindy Zhang, a third year at UC Berkeley majoring in Computer Science.
-            Out of all the classes I've taken, I've enjoyed CS170 (algorithms) and CS61B (data structures)
-            the most. I'm also a researcher in the Systems Design and Integration Division
-            of <a href='https://cubes.space/' target='_blank' rel="noopener noreferrer">CUBES</a> at Berkeley,
-            where I create object-oriented models to simulate a human Mars mission.
+            Out of all the classes I've taken, I've enjoyed <a href="https://www2.eecs.berkeley.edu/Courses/CS170/">CS 170</a> (algorithms) 
+            and <a href="https://www2.eecs.berkeley.edu/Courses/CS61B/">CS 61B</a> (data structures) the most. 
+            I'm also currently a CS 61B TA and CS 170 reader. Click <a href="" >here</a> to view my teaching materials for 61B.
           </p>
           <p>
             Outside of academics, one of my main hobbies is wushu (Chinese martial arts). I love spontaneous adventures,

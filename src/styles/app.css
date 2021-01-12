@@ -75,16 +75,11 @@ h1::after, h1::before {
   color: var(--off-white);
 }
 
-#copyright {
+#footer-text {
   color: var(--off-white);
   margin: auto;
 }
 
 .contact:hover {
   color: var(--light-peach);
-}
-
-#copyright::before {
-  content: '\00A9';
-  margin-right: 3px;
 }
