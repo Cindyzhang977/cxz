@@ -13,8 +13,10 @@ p {
   background: var(--navy);
   border: none;
   margin: 20px;
+  margin-top: 0;
   font-weight: 500;
   padding: 4px 8px;
+  display: none;
 }
 
 .portfolio-btn:hover {
@@ -66,11 +68,25 @@ p {
   font-size: 3rem;
 }
 
+.cs61b-link {
+  background-color: #d1eeee;
+  padding: 2px 4px;
+}
+
+.cs61b-link:hover {
+  background-color: #b2d5d6;
+  cursor: pointer;
+}
+
 #hello {
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
   margin-bottom: 0;
   color: #1b2d45;
+}
+
+#space {
+  height: 8px;
 }
 
 @media (max-height: 800px) and (min-width: 1300px) {

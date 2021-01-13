@@ -56,6 +56,8 @@ h1::after, h1::before {
 
 .navlink:hover {
   color: var(--light-peach) !important;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .footer {
@@ -86,4 +88,9 @@ h1::after, h1::before {
 
 .hide {
   display: none;
+}
+
+.name::before {
+  content: '</>';
+  margin-right: 8px;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { HashRouter as Router, Switch, Route, useHistory } from "react-router-dom"
+import { HashLink as Link } from 'react-router-hash-link'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/custom-styles.scss'
 import './styles/app.css'
@@ -19,10 +20,10 @@ function App() {
 
   return (
     <div id='home'>
-      <NavBar />
       <Router>
         <Switch>
-          <Route exact path="/cxz">
+          <Route exact path="/">
+            <NavBar />
             <div className='body'>
               <Home />
               <h1 id='projects'>projects</h1>
@@ -33,7 +34,7 @@ function App() {
               <About />
             </div>
           </Route>
-          <Route path="/cxz/cs61b">
+          <Route path="/cs61b">
             <CS61B />
           </Route>
         </Switch>
@@ -44,21 +45,23 @@ function App() {
 }
 
 function NavBar() {
-  const is61b = window.location.pathname.includes("cs61b")
 
-  console.log(is61b)
-  console.log(window.location.pathname)
+  const history = useHistory()
+
+  function goHome() {
+    history.push('/')
+  }
 
   return (
     <Navbar collapseOnSelect expand='lg' bg='navy' sticky='top' variant='dark' className='navbar'>
-    <Navbar.Brand href='/cxz'><div className='navlink'>Cindy Zhang</div></Navbar.Brand>
-    <Navbar.Toggle aria-controls='responsive-navbar-nav' className={is61b ? 'hide' : ''} />
+    <Navbar.Brand onClick={goHome}><div className='name navlink'>Cindy Zhang</div></Navbar.Brand>
+    <Navbar.Toggle aria-controls='responsive-navbar-nav' />
       <Navbar.Collapse id='responsive-navbar-nav'>
-        <Nav className={'ml-auto' + (is61b ? ' hide' : '')}>
-          <Nav.Link href='#home' className='navlink'>Home</Nav.Link>
-          <Nav.Link href='#projects' className='navlink'>Projects</Nav.Link>
-          <Nav.Link href='#experience' className='navlink'>Experience</Nav.Link>
-          <Nav.Link href='#about' className='navlink'>About</Nav.Link>
+        <Nav className='ml-auto'>
+          <Nav.Link><Link to='/#home' className='navlink'>Home</Link></Nav.Link>
+          <Nav.Link><Link to='/#projects' className='navlink'>Projects</Link></Nav.Link>
+          <Nav.Link><Link to='/#experience' className='navlink'>Experience</Link></Nav.Link>
+          <Nav.Link><Link to='/#about' className='navlink'>About</Link></Nav.Link>
           <Nav.Link href={resume} className='navlink'>Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
