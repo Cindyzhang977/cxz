@@ -79,13 +79,14 @@ const timelineData = [
     },
     {
         title: 'CUBES',
-        subtitle: 'Researcher | March 2020 - December 2021',
+        subtitle: 'Undergraduate Researcher | March - December 2020',
         description: <div>
                       At <a href='https://cubes.space/' target='_blank' rel="noopener noreferrer">CUBES</a> (Center for the Utilization of Biological Engineering in Space),
-                      I'm working on building object oriented models to simulate and optimize a
+                      I worked on the Systems Design and Integration Division to build object oriented models to simulate and optimize a
                       biologically-driven Mars exploration mission.
                      </div>,
         details: <div>
+                  I designed and implemented a dynamic inventory to keep track of all objects in the system and their states.
                   <a href='http://pycatshoo.org/' target='_blank' rel="noopener noreferrer">PyCATSHOO</a> is used to model
                   hybrid systems and simulate processes that would take place on a long-term human mission to Mars.
                  </div>,

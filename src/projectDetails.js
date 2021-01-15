@@ -81,6 +81,44 @@ export function MinDomNetwork() {
       </Container>
     )
   }
+
+  export function Pintos() {
+    return (
+      <Container>
+        <p>
+          I worked in a team of four in CS 162 to build features of a basic instructional operating system. It supports the creation
+          of multiple threads as well as running user programs. Select system calls (e.g. read, write, exec, mkdir, wait) were implemented.
+          We also created a priority scheduler with priority donation. Finally, Pintos supports a basic file system with directory operations 
+          and resizable files using inodes.
+        </p>
+      </Container>
+    )
+  }
+
+  export function UPEVotingSystem() {
+    return (
+      <Container>
+        <Row>
+          <iframe 
+            className="demo-video"
+            src="https://www.youtube.com/embed/m2sOiX19JBk?autoplay=1" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            title="UPE Voting System"
+            allowfullscreen
+          >
+          </iframe>
+        </Row>
+        <Row>
+          <p>
+            I created the front end interface for the Berkeley UPE election web application. Once a voting session
+            admin opens a session they've created, users can join that session via the generated code. Once users 
+            join a session, they can drag and drop candidates to produce a ranked vote. 
+          </p>
+        </Row>
+      </Container>
+    )
+  }
   
   export function Expense() {
     return (

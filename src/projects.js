@@ -12,6 +12,8 @@ import musiqueImg from './imgs/projects/musique.png'
 import minDomNetworkImg from './imgs/projects/min-dom-network.png'
 import gRoutesImg from './imgs/projects/gRoutes.png'
 import stackoverflowScraperImg from './imgs/projects/stackoverflow-scraper.png'
+import pintosImg from './imgs/projects/pintos.png'
+import upeVotingSystemImg from './imgs/projects/upe-voting.png'
 
 function Projects() {
 
@@ -127,6 +129,20 @@ const projects = [
     img: minDomNetworkImg,
     details: ProjectDetails.MinDomNetwork(),
     link: 'https://github.com/liuk22/Proj170'
+  },
+  {
+    name: 'Pintos',
+    langs: 'C',
+    description: 'Educational opertating system supporting primitive versions of select features.',
+    img: pintosImg,
+    details: ProjectDetails.Pintos(),
+  },
+  {
+    name: 'UPE Voting System',
+    langs: 'React, Flask',
+    description: 'Voting system for users to create or join elections.',
+    img: upeVotingSystemImg,
+    details: ProjectDetails.UPEVotingSystem(),
   },
   {
     name: 'Expense',
