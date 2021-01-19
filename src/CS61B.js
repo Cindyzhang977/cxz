@@ -46,19 +46,32 @@ function CS61B() {
   ]
 
   return (
-    <div>
+    <>
       <Navbar collapseOnSelect expand='lg' bg='navy' sticky='top' variant='dark' className='navbar'>
         <Navbar.Brand href='/cxz' onClick={() => history.push('/cxz')}><div className='navlink name'>Cindy Zhang</div></Navbar.Brand>
       </Navbar>
       <Container className="cs61b-container">
-        <div id="greeting">
-          welcome to CS 61B!
-        </div>
-        <div>
-          Below are my teaching materials for CS61B. Feel free to reach out to me 
-          at <a href="mailto:cindyxzhang@berkeley.edu" target="_blank" rel="noopener noreferrer">cindyxzhang@berkeley.edu</a> if
-          you have any questions. 
-        </div>
+        <Container className="head-container">
+          <div id="greeting">
+            welcome to CS 61B!
+          </div>
+          <div id="contact">
+            <a href="mailto:cindyxzhang@berkeley.edu" target="_blank" rel="noopener noreferrer">cindyxzhang@berkeley.edu</a><br></br>
+            <strong>Lab:</strong> <a href="" target="_blank" rel="noopener noreferrer">discord</a><br></br>
+            <strong>Discussion:</strong> <a href="" target="_blank" rel="noopener noreferrer">discord</a><br></br>
+            <strong>OH:</strong> Friday 10 - 11am<br></br>
+          </div>
+        </Container>
+        <Container>
+          Below are my teaching materials for CS61B as well as some administrative links. Feel free to reach out to me if
+          you have any questions.
+          <p id="admin-links">
+            <a href="https://sp21.datastructur.es/" target="_blank" rel="noopener noreferrer">Course Website</a><br></br>
+            <a href="https://oh.datastructur.es/" target="_blank" rel="noopener noreferrer">OH Queue</a><br></br>
+            <a href="https://edstem.org/us/courses/3735/discussion/" target="_blank" rel="noopener noreferrer">Ed</a><br></br>
+            <a href="https://beacon.datastructur.es/" target="_blank" rel="noopener noreferrer">Beacon</a><br></br>
+          </p>
+        </Container>
         <Container className="section">
           <div className="header">
             Discussions
@@ -119,7 +132,7 @@ function CS61B() {
           </ul>
         </Container>
       </Container>
-    </div>
+    </>
   )
 }
 
