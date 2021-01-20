@@ -2,48 +2,11 @@ import React from 'react'
 import { useHistory } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/cs61b.css'
-import { Navbar, Container } from 'react-bootstrap'
+import { Navbar, Container, Table } from 'react-bootstrap'
 
 function CS61B() {
 
   const history = useHistory()
-
-  const discussions = [
-    // {
-    //   name: ,
-    //   link: 
-    // }
-  ]
-
-  const labs = [
-    // {
-    //   name: ,
-    //   link:
-    // }
-  ]
-
-  const guides = [
-    {
-      name: "Object Oriented Programming",
-      link: "https://github.com/Cindyzhang977/cs61b-teaching/blob/main/object-oriented-programming.md"
-    },
-    {
-      name: "Asymptotics",
-      link: "https://github.com/Cindyzhang977/cs61b-teaching/blob/main/asymptotics.md"
-    },
-    {
-      name: "Hashing",
-      link: "https://github.com/Cindyzhang977/cs61b-teaching/blob/main/hashing.md"
-    },
-    {
-      name: "Graphs",
-      link: "https://github.com/Cindyzhang977/cs61b-teaching/blob/main/graphs.md"
-    },
-    {
-      name: "Sorting",
-      link: "https://github.com/Cindyzhang977/cs61b-teaching/blob/main/sorting.md"
-    }
-  ]
 
   return (
     <>
@@ -57,8 +20,8 @@ function CS61B() {
           </div>
           <div id="contact">
             <a href="mailto:cindyxzhang@berkeley.edu" target="_blank" rel="noopener noreferrer">cindyxzhang@berkeley.edu</a><br></br>
-            <strong>Lab:</strong> <a href="" target="_blank" rel="noopener noreferrer">discord</a><br></br>
-            <strong>Discussion:</strong> <a href="" target="_blank" rel="noopener noreferrer">discord</a><br></br>
+            <strong>Lab:</strong> Wednesday 4 - 6pm <br></br>
+            <strong>Discussion:</strong> Wednesday 12 - 1pm <br></br>
             <strong>OH:</strong> Friday 10 - 11am<br></br>
           </div>
         </Container>
@@ -78,37 +41,77 @@ function CS61B() {
           </div>
           <div>
             Discussion slides and other materials will be posted here every week.
+            Join the section Zoom here: <a href="https://berkeley.zoom.us/my/cindyxzhang" target="_blank" rel="noopener noreferrer">https://berkeley.zoom.us/my/cindyxzhang</a>
           </div>
-          <ul className="links">
-            {
-              discussions.map((disc, index) => {
-                return (
-                  <li key={index}>
-                    <a href={disc.link}>{disc.name}</a>
-                  </li>
-                )
-              })
-            }
-          </ul>
+          <Table striped bordered className="table">
+            <thead>
+              <tr>
+                <th>Discussion</th>
+                <th>Resources</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                discussions.map((discussion, index) => {
+                  return (
+                    <tr key={index}>
+                      <td>
+                        {discussion.worksheet ? <a href={discussion.worksheet} target="_blank" rel="noopener noreferrer">{discussion.name}</a> : discussion.name}
+                      </td>
+                      <td>
+                        {
+                          discussion.resources.map((resource, index) => {
+                            return (
+                              <div>
+                                {resource.link ? <a href={resource.link} target="_blank" rel="noopener noreferrer">{resource.name}</a> : resource.name}
+                              </div>
+                            )
+                          })
+                        }
+                      </td>
+                    </tr>
+                  )
+                })
+              }
+            </tbody>
+          </Table>
         </Container>
         <Container className="section">
           <div className="header">
             Labs
           </div>
           <div>
-            Lab slides and other materials will be posted here every week.
+            Lab slides and other materials will be posted here every week. 
+            Join the lab Discord server here: <a href="https://discord.gg/87ShTvRBPa" target="_blank" rel="noopener noreferrer">https://discord.gg/87ShTvRBPa</a>
           </div>
-          <ul className="links">
-            {
-              labs.map((lab, index) => {
-                return (
-                  <li key={index}>
-                    <a href={lab.link}>{lab.name}</a>
-                  </li>
-                )
-              })
-            }
-          </ul>
+          <Table striped bordered className="table">
+            <thead>
+              <tr>
+                <th>Lab</th>
+                <th>Resources</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                labs.map((lab, index) => {
+                  return (
+                    <tr key={index}>
+                      <td><a href={lab.labLink} target="_blank" rel="noopener noreferrer">{lab.name}</a></td>
+                      <td>
+                        {
+                          lab.resources.map((resource, index) => {
+                            return (
+                              <div><a href={resource.link} target="_blank" rel="noopener noreferrer">{resource.name}</a></div>
+                            )
+                          })
+                        }
+                      </td>
+                    </tr>
+                  )
+                })
+              }
+            </tbody>
+          </Table>
         </Container>
         <Container className="section">
           <div className="header">
@@ -135,5 +138,62 @@ function CS61B() {
     </>
   )
 }
+
+const discussions = [
+  {
+    name: "Week 1: Intro to Java",
+    worksheet: "",
+    resources: [
+      {
+        name: "slides",
+        link: ""
+      },
+      {
+        name: "solutions",
+        link: ""
+      }
+    ]
+  }
+]
+
+const labs = [
+  {
+    name: "Lab 1: IntelliJ, Java, git",
+    labLink: "https://sp21.datastructur.es/materials/lab/lab1/lab1",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1IxZUhlYx1M36c6_XzLdTrg_A-ei3PWCK4-E8axB67YI/edit?usp=sharing"
+      },
+      {
+        name: "discord guide",
+        link: "https://sp21.datastructur.es/materials/guides/discord-guide"
+      }
+    ]
+  }
+]
+
+const guides = [
+  {
+    name: "Object Oriented Programming",
+    link: "https://github.com/Cindyzhang977/cs61b-teaching/blob/main/object-oriented-programming.md"
+  },
+  {
+    name: "Asymptotics",
+    link: "https://github.com/Cindyzhang977/cs61b-teaching/blob/main/asymptotics.md"
+  },
+  {
+    name: "Hashing",
+    link: "https://github.com/Cindyzhang977/cs61b-teaching/blob/main/hashing.md"
+  },
+  {
+    name: "Graphs",
+    link: "https://github.com/Cindyzhang977/cs61b-teaching/blob/main/graphs.md"
+  },
+  {
+    name: "Sorting",
+    link: "https://github.com/Cindyzhang977/cs61b-teaching/blob/main/sorting.md"
+  }
+]
 
 export default CS61B

@@ -4,7 +4,7 @@ ul {
 
 .head-container {
   /* border: 2px solid red; */
-  align-items: flex-start;
+  align-items: flex-end;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,9 +29,13 @@ ul {
   margin-top: 16px;
 }
 
+.table {
+  margin: 16px 0;
+}
+
 #greeting {
   font-family: 'Dancing Script', cursive;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #1b2d45;
   /* border: 2px solid blue; */
 }
