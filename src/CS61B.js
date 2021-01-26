@@ -141,17 +141,17 @@ function CS61B() {
 
 const discussions = [
   {
-    name: "Week 1: Intro to Java",
-    worksheet: "",
+    name: "Discussion 2: Intro to Java",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc02.pdf",
     resources: [
       {
         name: "slides",
-        link: ""
+        link: "https://docs.google.com/presentation/d/1EgLHsn60sd5OUSabdJXIgOJ7lwbJs0XA4Hn4Goqyryw/edit#slide=id.gb7578eb4cc_0_12"
       },
-      {
-        name: "solutions",
-        link: ""
-      }
+      // {
+      //   name: "solutions",
+      //   link: ""
+      // }
     ]
   }
 ]
@@ -168,6 +168,15 @@ const labs = [
       {
         name: "discord guide",
         link: "https://sp21.datastructur.es/materials/guides/discord-guide"
+      }
+    ]
+  },
+  {
+    name: "Lab 2: JUnit Tests and Debugging",
+    labLink: "https://sp21.datastructur.es/materials/lab/lab2/lab2",
+    resources: [
+      {
+        name: "N/A",
       }
     ]
   }

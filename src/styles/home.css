@@ -6,7 +6,7 @@ img {
 }
 
 p {
-  padding: 0 20px;
+  margin: 0 20px 12px 20px;
 }
 
 .portfolio-btn {
@@ -87,6 +87,25 @@ p {
 
 #space {
   height: 8px;
+}
+
+#cs61b-link {
+  border-left: 6px solid var(--light-blue);
+  color: var(--navy);
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 8px;
+  transition: margin-left 0.5s;
+}
+
+#cs61b-link:hover {
+  cursor: pointer;
+  margin-left: 32px;
+  text-decoration: underline;
+}
+
+#cs61b-arrow {
+  margin-left: 4px;
 }
 
 @media (max-height: 800px) and (min-width: 1300px) {

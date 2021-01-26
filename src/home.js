@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/home.css'
 import { Col, Row, Image, Container, Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleDown, faEnvelopeSquare, faCamera } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleDown, faEnvelopeSquare, faCamera, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faGithubSquare, faInstagramSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import profile from './imgs/profile.jpg'
@@ -42,8 +42,9 @@ function Home() {
             Out of all the classes I've taken, I've enjoyed <a href="https://www2.eecs.berkeley.edu/Courses/CS170/">CS 170</a> (algorithms) 
             and <a href="https://www2.eecs.berkeley.edu/Courses/CS61B/">CS 61B</a> (data structures) the most. 
             I'm also currently a CS 61B TA and CS 170 reader.
-            <div id="space"></div>
-            <span onClick={goCS61B} className="cs61b-link">Click here to view my teaching materials for 61B.</span>
+          </p>
+          <p id="cs61b-link" onClick={goCS61B}>
+            CS 61B Teaching Materials <FontAwesomeIcon icon={faArrowRight} id="cs61b-arrow"/>
           </p>
           <p>
             Outside of academics, one of my main hobbies is wushu (Chinese martial arts). I love spontaneous adventures,
