@@ -147,11 +147,17 @@ const discussions = [
       {
         name: "slides",
         link: "https://docs.google.com/presentation/d/1EgLHsn60sd5OUSabdJXIgOJ7lwbJs0XA4Hn4Goqyryw/edit#slide=id.gb7578eb4cc_0_12"
-      },
-      // {
-      //   name: "solutions",
-      //   link: ""
-      // }
+      }
+    ]
+  },
+  {
+    name: "Discussion 3: Scope, Static, and LinkedLists",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc03.pdf",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1JTElUlKVrdp-TyHPy6_jZ4rMX9Pm0s1crHhI-NKochk/edit?usp=sharing"
+      }
     ]
   }
 ]
@@ -174,6 +180,15 @@ const labs = [
   {
     name: "Lab 2: JUnit Tests and Debugging",
     labLink: "https://sp21.datastructur.es/materials/lab/lab2/lab2",
+    resources: [
+      {
+        name: "N/A",
+      }
+    ]
+  },
+  {
+    name: "Lab 3: Timing Tests and Randomized Comparison Tests",
+    labLink: "https://sp21.datastructur.es/materials/lab/lab3/lab3",
     resources: [
       {
         name: "N/A",
