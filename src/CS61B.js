@@ -159,6 +159,16 @@ const discussions = [
         link: "https://docs.google.com/presentation/d/1JTElUlKVrdp-TyHPy6_jZ4rMX9Pm0s1crHhI-NKochk/edit?usp=sharing"
       }
     ]
+  },
+  {
+    name: "Discussion 4: Inheritance",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc04.pdf",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1Sb3BHm7fFYX1Uo1aXMhb4xqoXd6az7gAmJQK8M2bz1A/edit#slide=id.gb7578eb4cc_0_12"
+      }
+    ]
   }
 ]
 
