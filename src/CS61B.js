@@ -169,7 +169,18 @@ const discussions = [
         link: "https://docs.google.com/presentation/d/1Sb3BHm7fFYX1Uo1aXMhb4xqoXd6az7gAmJQK8M2bz1A/edit#slide=id.gb7578eb4cc_0_12"
       }
     ]
+  },
+  {
+    name: "Discussion 5: Iterators & Iterables",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc05.pdf",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1wshbabF2hWI5xR0O2j8CU9TQYKsTEl3oBjWf00LG8LE/edit#slide=id.gb7578eb4cc_0_12"
+      }
+    ]
   }
+
 ]
 
 const labs = [
