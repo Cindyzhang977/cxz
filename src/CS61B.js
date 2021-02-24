@@ -78,43 +78,6 @@ function CS61B() {
         </Container>
         <Container className="section">
           <div className="header">
-            Labs
-          </div>
-          <div>
-            Lab slides and other materials will be posted here every week. 
-            Join the lab Discord server here: <a href="https://discord.gg/87ShTvRBPa" target="_blank" rel="noopener noreferrer">https://discord.gg/87ShTvRBPa</a>
-          </div>
-          <Table striped bordered className="table">
-            <thead>
-              <tr>
-                <th>Lab</th>
-                <th>Resources</th>
-              </tr>
-            </thead>
-            <tbody>
-              {
-                labs.map((lab, index) => {
-                  return (
-                    <tr key={index}>
-                      <td><a href={lab.labLink} target="_blank" rel="noopener noreferrer">{lab.name}</a></td>
-                      <td>
-                        {
-                          lab.resources.map((resource, index) => {
-                            return (
-                              <div><a href={resource.link} target="_blank" rel="noopener noreferrer">{resource.name}</a></div>
-                            )
-                          })
-                        }
-                      </td>
-                    </tr>
-                  )
-                })
-              }
-            </tbody>
-          </Table>
-        </Container>
-        <Container className="section">
-          <div className="header">
             Resources
           </div>
           <div>
@@ -179,40 +142,14 @@ const discussions = [
         link: "https://docs.google.com/presentation/d/1wshbabF2hWI5xR0O2j8CU9TQYKsTEl3oBjWf00LG8LE/edit#slide=id.gb7578eb4cc_0_12"
       }
     ]
-  }
-
-]
-
-const labs = [
+  },
   {
-    name: "Lab 1: IntelliJ, Java, git",
-    labLink: "https://sp21.datastructur.es/materials/lab/lab1/lab1",
+    name: "Discussion 6: Disjoint Sets & Asymptotics",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc06.pdf",
     resources: [
       {
         name: "slides",
-        link: "https://docs.google.com/presentation/d/1IxZUhlYx1M36c6_XzLdTrg_A-ei3PWCK4-E8axB67YI/edit?usp=sharing"
-      },
-      {
-        name: "discord guide",
-        link: "https://sp21.datastructur.es/materials/guides/discord-guide"
-      }
-    ]
-  },
-  {
-    name: "Lab 2: JUnit Tests and Debugging",
-    labLink: "https://sp21.datastructur.es/materials/lab/lab2/lab2",
-    resources: [
-      {
-        name: "N/A",
-      }
-    ]
-  },
-  {
-    name: "Lab 3: Timing Tests and Randomized Comparison Tests",
-    labLink: "https://sp21.datastructur.es/materials/lab/lab3/lab3",
-    resources: [
-      {
-        name: "N/A",
+        link: "https://docs.google.com/presentation/d/1Hhj4xet9AFLx_sUv6RnFxjlmoJ_GMCjoX_rSbdFp_QY/edit?usp=sharing"
       }
     ]
   }
