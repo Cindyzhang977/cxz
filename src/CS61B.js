@@ -20,9 +20,8 @@ function CS61B() {
           </div>
           <div id="contact">
             <a href="mailto:cindyxzhang@berkeley.edu" target="_blank" rel="noopener noreferrer">cindyxzhang@berkeley.edu</a><br></br>
-            <strong>Lab:</strong> Wednesday 4 - 6pm <br></br>
             <strong>Discussion:</strong> Wednesday 12 - 1pm <br></br>
-            <strong>OH:</strong> Friday 10 - 11am<br></br>
+            <strong>OH:</strong> Friday 10am - 1pm<br></br>
           </div>
         </Container>
         <Container>
