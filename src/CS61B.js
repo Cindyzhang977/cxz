@@ -151,7 +151,15 @@ const discussions = [
         link: "https://docs.google.com/presentation/d/1Hhj4xet9AFLx_sUv6RnFxjlmoJ_GMCjoX_rSbdFp_QY/edit?usp=sharing"
       }
     ]
-  }
+  },
+  {
+    name: "Discussion 7: Asymptotics & BSTs",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc07.pdf",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1HDFR7aKZmZIagl3GlLgqTBZPhoIwHqrcFAi85AEN7lQ/edit#slide=id.gb7578eb4cc_0_12"
+      }
 ]
 
 const guides = [
