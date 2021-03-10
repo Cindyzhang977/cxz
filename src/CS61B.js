@@ -160,6 +160,18 @@ const discussions = [
         name: "slides",
         link: "https://docs.google.com/presentation/d/1HDFR7aKZmZIagl3GlLgqTBZPhoIwHqrcFAi85AEN7lQ/edit#slide=id.gb7578eb4cc_0_12"
       }
+    ]
+  },
+  {
+    name: "Discussion 8: LLRBs & Hashing",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc08.pdf",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1o3i5hDXUfcojcAEd2qfUhw85b4ajQWN48Fb0Yy6KWL0/edit?usp=sharing"
+      }
+    ]
+  }
 ]
 
 const guides = [
