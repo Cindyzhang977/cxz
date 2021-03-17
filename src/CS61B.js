@@ -171,7 +171,18 @@ const discussions = [
         link: "https://docs.google.com/presentation/d/1o3i5hDXUfcojcAEd2qfUhw85b4ajQWN48Fb0Yy6KWL0/edit?usp=sharing"
       }
     ]
+  },
+  {
+    name: "Discussion 9: Trees, Graphs, Heaps",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc09.pdf",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1dSqzSJMDUtHBMp4iiyg1Xp3uhJOaXWsyYj5KbaxnKtc/edit?usp=sharing"
+      }
+    ]
   }
+
 ]
 
 const guides = [
