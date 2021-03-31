@@ -181,8 +181,17 @@ const discussions = [
         link: "https://docs.google.com/presentation/d/1dSqzSJMDUtHBMp4iiyg1Xp3uhJOaXWsyYj5KbaxnKtc/edit?usp=sharing"
       }
     ]
+  },
+  {
+    name: "Discussion 10: Shortest Paths and MSTs",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc10.pdf",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1Wm-xOW27CPYwB7QK80sydFkNsNip7r4VN0qp8kzYBaQ/edit?usp=sharing"
+      }
+    ]
   }
-
 ]
 
 const guides = [
