@@ -191,6 +191,16 @@ const discussions = [
         link: "https://docs.google.com/presentation/d/1Wm-xOW27CPYwB7QK80sydFkNsNip7r4VN0qp8kzYBaQ/edit?usp=sharing"
       }
     ]
+  },
+  {
+    name: "Discussion 11: Tries and More Graphs",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc11.pdf",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1DfIfcGJdS2DzAGa4GJag5nUUeeW6Da0GV6nwwzK8lHM/edit?usp=sharing"
+      }
+    ]
   }
 ]
 
