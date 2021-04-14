@@ -201,6 +201,16 @@ const discussions = [
         link: "https://docs.google.com/presentation/d/1DfIfcGJdS2DzAGa4GJag5nUUeeW6Da0GV6nwwzK8lHM/edit?usp=sharing"
       }
     ]
+  },
+  {
+    name: "Discussion 12: Sorting",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc12.pdf",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1YUZ2i-CLp-hQSF2pde6lR-ZEJO2w0fv-EWYV6vFNhjc/edit?usp=sharing"
+      }
+    ]
   }
 ]
 
