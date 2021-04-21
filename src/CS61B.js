@@ -211,7 +211,18 @@ const discussions = [
         link: "https://docs.google.com/presentation/d/1YUZ2i-CLp-hQSF2pde6lR-ZEJO2w0fv-EWYV6vFNhjc/edit?usp=sharing"
       }
     ]
+  },
+  {
+    name: "Discussion 13: More Sorting",
+    worksheet: "https://sp21.datastructur.es/materials/discussion/disc13.pdf",
+    resources: [
+      {
+        name: "slides",
+        link: "https://docs.google.com/presentation/d/1ONbGN8EH6Q4XlkUmBF60FmJ_jAGGRS1a98mLNtpmtTI/edit?usp=sharing"
+      }
+    ]
   }
+
 ]
 
 const guides = [
