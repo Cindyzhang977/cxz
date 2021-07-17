@@ -47,7 +47,7 @@ const timelineData = [
       title: 'Citadel',
       subtitle: 'SWE Intern | May - August 2021',
       description: <div>
-                   I will be interning at Citadel in summer 2021 (hopefully in the New York office).  
+                   I'm currently a software intern on the Data Strategies team in Global Fixed Income. I'm redesigning a distributed compute system that uses kubernetes nodes to execute many tasks in parallel.  
                    </div>,
       details: <div>
                 More details coming soon!
