@@ -47,10 +47,16 @@ const timelineData = [
       title: 'Citadel',
       subtitle: 'SWE Intern | May - August 2021',
       description: <div>
-                   I'm currently a software intern on the Data Strategies team in Global Fixed Income. I'm redesigning a distributed compute system that uses kubernetes nodes to execute many tasks in parallel.  
+                   As a SWE intern on the Data Strategies team in Citadel's Global Fixed Income. I redesigned a 
+                   distributed compute system that allows users to submit an arbitrary chain of functions and a list of inputs 
+                   to execute in parallel on kubernetes. 
                    </div>,
       details: <div>
-                More details coming soon!
+                This was my most fulfilling internship, as I was handed a real project with significant impact and I also had the ownership 
+                to design a reliable and scalable system based on the business needs that were communicated to me. I worked with various technologies, 
+                including Docker, Kubernetes, MongoDB, as well as many internal tools. Every day I was doing something I've never done before. Citadel's
+                work culture is definitely more intense than a traditional tech company, but it's true when they say that I'll never get bored. 
+                There's always interesting problems to solve and brilliant people to learn from. 
                </div>,
       img: citadel
     },

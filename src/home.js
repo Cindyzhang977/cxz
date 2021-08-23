@@ -38,13 +38,10 @@ function Home() {
             hello!
           </p>
           <p>
-            I'm Cindy Zhang, a third year at UC Berkeley majoring in Computer Science.
+            I'm Cindy Zhang, a fourth year at UC Berkeley majoring in Computer Science.
             Out of all the classes I've taken, I've enjoyed <a href="https://www2.eecs.berkeley.edu/Courses/CS170/">CS 170</a> (algorithms) 
             and <a href="https://www2.eecs.berkeley.edu/Courses/CS61B/">CS 61B</a> (data structures) the most. 
-            I'm also currently a CS 61B TA and CS 170 reader.
-          </p>
-          <p id="cs61b-link" onClick={goCS61B}>
-            CS 61B Teaching Materials <FontAwesomeIcon icon={faArrowRight} id="cs61b-arrow"/>
+            I'm also currently a CS 170 TA and previously I've taught CS 61B.
           </p>
           <p>
             Outside of academics, one of my main hobbies is wushu (Chinese martial arts). I love spontaneous adventures,
