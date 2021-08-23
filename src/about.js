@@ -45,10 +45,6 @@ function About() {
               involves visiting nearby parks, I'm always eager to spend the day outside.
               I'm particularly obsessed with beach trips and finding nice places to watch the sunset.
             </p>
-            <Button href="https://photo-portfolio-285516.wl.r.appspot.com/" className="portfolio-btn">
-            <FontAwesomeIcon icon={faCamera} className="photo-icon" />
-            Photos Portfolio
-          </Button>
           </div>
         </Col>
       </Row>
