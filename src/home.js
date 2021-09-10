@@ -3,9 +3,9 @@ import { useHistory } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/home.css'
-import { Col, Row, Image, Container, Button } from 'react-bootstrap'
+import { Col, Row, Image, Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleDown, faEnvelopeSquare, faCamera, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleDown, faEnvelopeSquare, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faGithubSquare, faInstagramSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import profile from './imgs/profile.jpg'
@@ -14,8 +14,8 @@ function Home() {
 
   const history = useHistory()
 
-  function goCS61B() {
-    history.push("/cs61b")
+  function goCS170() {
+    history.push("/cs170")
   }
 
   return (
@@ -48,10 +48,9 @@ function Home() {
             and more specifically, I have an unhealthy obsession with going to the beach. Whenever I get the chance, I enjoy
             spending my time outdoors and exploring new places, capturing picturesque views on my phone.
           </p>
-          <Button href="https://photo-portfolio-285516.wl.r.appspot.com/" className="portfolio-btn">
-            <FontAwesomeIcon icon={faCamera} className="photo-icon" />
-            Photos Portfolio
-          </Button>
+          <p id="cs61b-link" onClick={goCS170}>
+            CS 170 Teaching Materials <FontAwesomeIcon icon={faArrowRight} id="cs61b-arrow"/>
+          </p>
           <p>
             Feel free to contact me at <a href="mailto:cindyxzhang@berkeley.edu" target="_blank" rel="noopener noreferrer">cindyxzhang@berkeley.edu</a>!
           </p>

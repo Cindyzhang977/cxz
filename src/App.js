@@ -15,6 +15,7 @@ import Projects from './Projects.js'
 import About from './About.js'
 import Experience from './Experience.js'
 import CS61B from './CS61B.js'
+import CS170 from './CS170.js'
 
 function App() {
 
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path="/cs61b">
             <CS61B />
+          </Route>
+          <Route path="/cs170">
+            <CS170 />
           </Route>
         </Switch>
       </Router>

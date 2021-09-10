@@ -49,3 +49,7 @@ ul {
 #admin-links {
   margin-top: 8px;
 }
+
+.cs61b-container {
+  height: 70vh;
+}
