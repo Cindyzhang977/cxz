@@ -51,7 +51,7 @@ const drinks = [
   },
   {
     "name": "aperol spritz",
-    "ingredients": ["aperol", "prosecco"]
+    "ingredients": ["aperol", "prosecco", "orange slice"]
   },
   {
     "name": "vodka spritz",
@@ -83,7 +83,7 @@ const drinks = [
   },
   {
     "name": "crimson smash (inspired by bopomofo)",
-    "ingredients": ["white rum", "grapefruit soda", "mint", "lime juice"]
+    "ingredients": ["white rum", "grapefruit soda", "mint", "lime juice", "blood orange slice"]
   },
   {
     "name": "daiquiri",
@@ -104,6 +104,18 @@ const drinks = [
   {
     "name": "sex on the beach",
     "ingredients": ["vodka", "peach schnapps", "cranberry juice", "orange juice", "lime wedge"]
+  },
+  {
+    "name": "whiskey sour",
+    "ingredients": ["whiskey", "lemon juice", "simple syrup", "egg white"]
+  },
+  {
+    "name": "green tea shot",
+    "ingredients": ["whiskey", "sour mix", "peach schnapps", "sprite"]
+  },
+  {
+    "name": "lavender french 75",
+    "ingredients": ["gin", "sparkling wine", "lemon juice", "simple syrup", "lavendar syrup"]
   },
 ]
 
