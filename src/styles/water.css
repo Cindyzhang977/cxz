@@ -1,0 +1,62 @@
+.drinks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+}
+
+.drink-name {
+  font-weight: 600;
+  font-size: 16px;
+  background-color: var(--water-text);
+  border-radius: 3px;
+  padding: 2px 8px;
+  margin-bottom: 4px;
+  color: #f3edeb;
+  opacity: 0.85;
+}
+
+.drink {
+  width: 280px;
+  margin: 12px;
+  padding: 12px;
+  color: var(--water-text);
+}
+
+.ingredient {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0 8px;
+}
+
+#water-container {
+  padding: 24px;
+  background-color: var(--water-background);
+}
+
+#water-header {
+  max-width: 1000px;
+  display: flex;
+  border-bottom: 3px solid var(--water-text);
+  align-items: center;
+  font-size: 3.5rem;
+  color: var(--water-text);
+  margin-bottom: 4px;
+}
+
+#fire-icon {
+  margin: 8px;
+}
+
+#water {
+  font-family: 'Vujahday Script', cursive;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #water-header {
+    font-size: 2rem;
+  }
+}

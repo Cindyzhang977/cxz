@@ -14,6 +14,7 @@ import Home from './Home.js'
 import Projects from './Projects.js'
 import About from './About.js'
 import Experience from './Experience.js'
+import Water from './Water.js'
 import CS61B from './CS61B.js'
 import CS170 from './CS170.js'
 
@@ -34,6 +35,7 @@ function App() {
               <h1 id='about'>about</h1>
               <About />
             </div>
+            <Footer />
           </Route>
           <Route path="/cs61b">
             <CS61B />
@@ -41,9 +43,11 @@ function App() {
           <Route path="/cs170">
             <CS170 />
           </Route>
+          <Route path="/water">
+            <Water />
+          </Route>
         </Switch>
       </Router>
-      <Footer />
     </div>
   );
 }

@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
 
 :root {
+  /* main site */
   --navy: #192536;
   --light-blue: #87cacc;
   --light-peach: #dcbeb4;
   --peach: #d9a493;
   --grey: #484848;
   --off-white: #ededed;
+
+  /* water site */
+  --water-background: #d8dce7;
+  --water-text: #1f2847;
 }
 
 html {
