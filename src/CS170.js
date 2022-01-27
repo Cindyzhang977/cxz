@@ -5,8 +5,6 @@ import './styles/cs61b.css'
 import { Navbar, Container, Table } from 'react-bootstrap'
 
 import disc01 from './cs170/disc01.pdf'
-import disc02 from './cs170/disc02.pdf'
-import disc04 from './cs170/disc04.pdf'
 
 function CS170() {
 
@@ -24,8 +22,8 @@ function CS170() {
           </div>
           <div id="contact">
             <a href="mailto:cindyxzhang@berkeley.edu" target="_blank" rel="noopener noreferrer">cindyxzhang@berkeley.edu</a><br></br>
-            <strong>Discussion:</strong> Friday 10 - 11am <br></br>
-            <strong>OH:</strong> Friday 3 - 5pm<br></br>
+            <strong>Discussion:</strong> Wednesday 3 - 4pm | Cory 289<br></br>
+            <strong>OH:</strong> Wednesday 4 - 5pm | Cory 212<br></br>
           </div>
         </Container>
         <Container className="section">
@@ -61,14 +59,6 @@ const discussions = [
     name: "Discussion 1: Asymptotics & Divide and Conquer",
     worksheet: disc01,
   },
-  {
-    name: "Discussion 2: FFT",
-    worksheet: disc02,
-  },
-  {
-    name: "Discussion 4: Graphs",
-    worksheet: disc04,
-  }
 ]
 
 export default CS170
