@@ -5,6 +5,7 @@ import './styles/cs61b.css'
 import { Navbar, Container, Table } from 'react-bootstrap'
 
 import disc01 from './cs170/disc01.pdf'
+import disc02 from './cs170/disc02.pdf'
 
 function CS170() {
 
@@ -59,6 +60,10 @@ const discussions = [
     name: "Discussion 1: Asymptotics & Divide and Conquer",
     worksheet: disc01,
   },
+  {
+    name: "Discussion 2: FFT",
+    worksheet: disc02,
+  }
 ]
 
 export default CS170
