@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/cxz/static/css/main.6635b46e.chunk.css",
-    "main.js": "/cxz/static/js/main.bff97c62.chunk.js",
-    "main.js.map": "/cxz/static/js/main.bff97c62.chunk.js.map",
+    "main.js": "/cxz/static/js/main.1f0de972.chunk.js",
+    "main.js.map": "/cxz/static/js/main.1f0de972.chunk.js.map",
     "runtime-main.js": "/cxz/static/js/runtime-main.cd2a1f70.js",
     "runtime-main.js.map": "/cxz/static/js/runtime-main.cd2a1f70.js.map",
     "static/css/2.11829350.chunk.css": "/cxz/static/css/2.11829350.chunk.css",
-    "static/js/2.6cebe363.chunk.js": "/cxz/static/js/2.6cebe363.chunk.js",
-    "static/js/2.6cebe363.chunk.js.map": "/cxz/static/js/2.6cebe363.chunk.js.map",
+    "static/js/2.0a3e1166.chunk.js": "/cxz/static/js/2.0a3e1166.chunk.js",
+    "static/js/2.0a3e1166.chunk.js.map": "/cxz/static/js/2.0a3e1166.chunk.js.map",
     "index.html": "/cxz/index.html",
-    "precache-manifest.9ce2cc7460eeb63bdcd67087532e59fd.js": "/cxz/precache-manifest.9ce2cc7460eeb63bdcd67087532e59fd.js",
+    "precache-manifest.5124831e6527df0f4d42500141433c0f.js": "/cxz/precache-manifest.5124831e6527df0f4d42500141433c0f.js",
     "service-worker.js": "/cxz/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/cxz/static/css/2.11829350.chunk.css.map",
     "static/css/main.6635b46e.chunk.css.map": "/cxz/static/css/main.6635b46e.chunk.css.map",
-    "static/js/2.6cebe363.chunk.js.LICENSE.txt": "/cxz/static/js/2.6cebe363.chunk.js.LICENSE.txt",
+    "static/js/2.0a3e1166.chunk.js.LICENSE.txt": "/cxz/static/js/2.0a3e1166.chunk.js.LICENSE.txt",
     "static/media/berkeley.png": "/cxz/static/media/berkeley.a8552979.png",
     "static/media/blackjack-bot.png": "/cxz/static/media/blackjack-bot.e047dc3a.png",
     "static/media/blackjack.png": "/cxz/static/media/blackjack.97818a9e.png",
     "static/media/disc01.pdf": "/cxz/static/media/disc01.6b014812.pdf",
     "static/media/disc02.pdf": "/cxz/static/media/disc02.0c29d571.pdf",
     "static/media/disc03.pdf": "/cxz/static/media/disc03.869f71b1.pdf",
+    "static/media/disc04.pdf": "/cxz/static/media/disc04.1c2d4fda.pdf",
     "static/media/dolby.jpg": "/cxz/static/media/dolby.4dfad477.jpg",
     "static/media/expense-tracker.png": "/cxz/static/media/expense-tracker.d387eaf8.png",
     "static/media/expense.png": "/cxz/static/media/expense.0c07055d.png",
@@ -39,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.cd2a1f70.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.6cebe363.chunk.js",
+    "static/js/2.0a3e1166.chunk.js",
     "static/css/main.6635b46e.chunk.css",
-    "static/js/main.bff97c62.chunk.js"
+    "static/js/main.1f0de972.chunk.js"
   ]
 }
