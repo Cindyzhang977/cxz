@@ -7,6 +7,8 @@ import { Navbar, Container, Table } from 'react-bootstrap'
 import disc01 from './cs170/disc01.pdf'
 import disc02 from './cs170/disc02.pdf'
 import disc03 from './cs170/disc03.pdf'
+import disc04 from './cs170/disc04.pdf'
+import disc06 from './cs170/disc06.pdf'
 
 
 function CS170() {
@@ -70,7 +72,16 @@ const discussions = [
   {
     name: "Discussion 3: Graphs",
     worksheet: disc03,
+  },
+  {
+    name: "Discussion 4: Greedy Algorithms",
+    worksheet: disc04,
+  },
+  {
+    name: "Discussion 6: Dynamic Programming",
+    worksheet: disc06,
   }
+
 ]
 
 export default CS170
