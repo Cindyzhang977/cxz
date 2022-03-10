@@ -9,6 +9,7 @@ import disc02 from './cs170/disc02.pdf'
 import disc03 from './cs170/disc03.pdf'
 import disc04 from './cs170/disc04.pdf'
 import disc06 from './cs170/disc06.pdf'
+import disc07 from './cs170/disc07.pdf'
 
 
 function CS170() {
@@ -80,6 +81,10 @@ const discussions = [
   {
     name: "Discussion 6: Dynamic Programming",
     worksheet: disc06,
+  },
+  {
+    name: "Discussion 7: Linear Programming",
+    worksheet: disc07,
   }
 
 ]
