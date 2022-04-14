@@ -10,6 +10,9 @@ import disc03 from './cs170/disc03.pdf'
 import disc04 from './cs170/disc04.pdf'
 import disc06 from './cs170/disc06.pdf'
 import disc07 from './cs170/disc07.pdf'
+import disc08 from './cs170/disc08.pdf'
+import disc09 from './cs170/disc09.pdf'
+import disc11 from './cs170/disc11.pdf'
 
 
 function CS170() {
@@ -85,8 +88,19 @@ const discussions = [
   {
     name: "Discussion 7: Linear Programming",
     worksheet: disc07,
+  },
+  {
+    name: "Discussion 8: Max Flow, Duality",
+    worksheet: disc08,
+  },
+  {
+    name: "Discussion 9: Zero Sum Games, Multiplicative Weights",
+    worksheet: disc09,
+  },
+  {
+    name: "Discussion 11: Complexity Classes, Reductions",
+    worksheet: disc11,
   }
-
 ]
 
 export default CS170
