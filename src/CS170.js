@@ -13,6 +13,8 @@ import disc07 from './cs170/disc07.pdf'
 import disc08 from './cs170/disc08.pdf'
 import disc09 from './cs170/disc09.pdf'
 import disc11 from './cs170/disc11.pdf'
+import disc12 from './cs170/disc12.pdf'
+import disc13 from './cs170/disc13.pdf'
 
 
 function CS170() {
@@ -100,6 +102,14 @@ const discussions = [
   {
     name: "Discussion 11: Complexity Classes, Reductions",
     worksheet: disc11,
+  },
+  {
+    name: "Discussion 12: Randomized Algorithms",
+    worksheet: disc12,
+  },
+  {
+    name: "Discussion 13: Randomized Algorithms, Hashing",
+    worksheet: disc13,
   }
 ]
 
