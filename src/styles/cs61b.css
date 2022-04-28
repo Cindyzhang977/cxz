@@ -50,6 +50,7 @@ ul {
   margin-top: 8px;
 }
 
-.cs61b-container {
-  height: 70vh;
+.table {
+  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
