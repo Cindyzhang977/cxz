@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/cxz/static/css/main.6635b46e.chunk.css",
-    "main.js": "/cxz/static/js/main.57062e42.chunk.js",
-    "main.js.map": "/cxz/static/js/main.57062e42.chunk.js.map",
+    "main.js": "/cxz/static/js/main.b857b372.chunk.js",
+    "main.js.map": "/cxz/static/js/main.b857b372.chunk.js.map",
     "runtime-main.js": "/cxz/static/js/runtime-main.cd2a1f70.js",
     "runtime-main.js.map": "/cxz/static/js/runtime-main.cd2a1f70.js.map",
     "static/css/2.11829350.chunk.css": "/cxz/static/css/2.11829350.chunk.css",
-    "static/js/2.2ef6ed70.chunk.js": "/cxz/static/js/2.2ef6ed70.chunk.js",
-    "static/js/2.2ef6ed70.chunk.js.map": "/cxz/static/js/2.2ef6ed70.chunk.js.map",
+    "static/js/2.ffa2e572.chunk.js": "/cxz/static/js/2.ffa2e572.chunk.js",
+    "static/js/2.ffa2e572.chunk.js.map": "/cxz/static/js/2.ffa2e572.chunk.js.map",
     "index.html": "/cxz/index.html",
-    "precache-manifest.10a14145254e434d63ac5cee880705b3.js": "/cxz/precache-manifest.10a14145254e434d63ac5cee880705b3.js",
+    "precache-manifest.b4866d1095a7f90b776406b18bdf8aeb.js": "/cxz/precache-manifest.b4866d1095a7f90b776406b18bdf8aeb.js",
     "service-worker.js": "/cxz/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/cxz/static/css/2.11829350.chunk.css.map",
     "static/css/main.6635b46e.chunk.css.map": "/cxz/static/css/main.6635b46e.chunk.css.map",
-    "static/js/2.2ef6ed70.chunk.js.LICENSE.txt": "/cxz/static/js/2.2ef6ed70.chunk.js.LICENSE.txt",
+    "static/js/2.ffa2e572.chunk.js.LICENSE.txt": "/cxz/static/js/2.ffa2e572.chunk.js.LICENSE.txt",
     "static/media/berkeley.png": "/cxz/static/media/berkeley.a8552979.png",
     "static/media/blackjack-bot.png": "/cxz/static/media/blackjack-bot.e047dc3a.png",
     "static/media/blackjack.png": "/cxz/static/media/blackjack.97818a9e.png",
@@ -27,6 +27,7 @@
     "static/media/disc09.pdf": "/cxz/static/media/disc09.afd76f91.pdf",
     "static/media/disc11.pdf": "/cxz/static/media/disc11.f74c6947.pdf",
     "static/media/disc12.pdf": "/cxz/static/media/disc12.c199954d.pdf",
+    "static/media/disc13.pdf": "/cxz/static/media/disc13.926b4e26.pdf",
     "static/media/dolby.jpg": "/cxz/static/media/dolby.4dfad477.jpg",
     "static/media/expense-tracker.png": "/cxz/static/media/expense-tracker.d387eaf8.png",
     "static/media/expense.png": "/cxz/static/media/expense.0c07055d.png",
@@ -46,8 +47,8 @@
   "entrypoints": [
     "static/js/runtime-main.cd2a1f70.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.2ef6ed70.chunk.js",
+    "static/js/2.ffa2e572.chunk.js",
     "static/css/main.6635b46e.chunk.css",
-    "static/js/main.57062e42.chunk.js"
+    "static/js/main.b857b372.chunk.js"
   ]
 }
